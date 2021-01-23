@@ -146,8 +146,8 @@ CAN = {
 	color_ui = rgb { 112 65 65 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 148 152 166 } #148 152 166
+	color_ui = rgb { 148 152 166 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -373,8 +373,8 @@ ICE = {
 }
 
 UKR = { 
-	color = rgb { 55  0  255 }
-	color_ui = rgb { 55  0  255 }	
+	color = rgb { 129 171 204 }
+	color_ui = rgb { 129 171 204 }	
 }
 
 AZR = {
@@ -423,8 +423,8 @@ MNT = {
 }
 
 BLR = {
-    color = RGB { 70 35 170 }
-    color_ui = RGB { 70 35 170 }
+    color = RGB { 179 201 193 }
+    color_ui = RGB { 179 201 193 }
 }
 MAN = {
 	color = rgb { 255 120 71 }
@@ -716,8 +716,8 @@ GZY = {
 	color_ui = rgb { 113 140 51 } 
 }
 ROS = {
-	color = rgb { 255 128 117 }
-	color_ui = rgb { 255 128 117 } 
+	color = rgb { 168 144 103 }
+	color_ui = rgb { 168 144 103 } 
 }
 STL = {
 	color = rgb { 140 12 0 }
@@ -738,4 +738,8 @@ ALK = {
 TRA = {
 	color = rgb { 91 211 255 }
 	color_ui = rgb { 91 211 255 } 
+}
+NKR = {
+	color = rgb { 163 67 65 }
+	color_ui = rgb { 163 67 65 }
 }
