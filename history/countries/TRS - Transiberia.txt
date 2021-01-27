@@ -1,6 +1,6 @@
 capital = 408
 
-oob = "TRA_1936"
+oob = "TRS_1936"
 
 set_research_slots = 3
 
@@ -62,9 +62,9 @@ if = {
 }
 
 set_popularities = {
-	fascism = 34
-	democratic = 30
-	communism = 36
+	fascism = `10
+	democratic = 10
+	communism = 80
 }
 
 create_country_leader = {

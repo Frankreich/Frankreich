@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = TRA
+		owner = TRS
 		victory_points = {
 			4797 3 
 		}
@@ -20,7 +20,7 @@ state={
 
 		}
 		add_core_of = SOV
-		add_core_of = TRA
+		add_core_of = TRS
 	}
 
 	provinces={

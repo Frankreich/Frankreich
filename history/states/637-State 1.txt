@@ -4,7 +4,7 @@ state={
 	name="STATE_637"
 
 	history={
-		owner = TRA
+		owner = TRS
 		buildings = {
 			infrastructure = 2
 			12207 = {
@@ -14,7 +14,7 @@ state={
 
 		}
 		add_core_of = SOV
-		add_core_of = TRA
+		add_core_of = TRS
 	}
 
 	provinces={
