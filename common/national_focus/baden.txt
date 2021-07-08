@@ -1,0 +1,17 @@
+focus_tree = {
+    id = baden_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = BAD
+        }
+    }
+
+    default = yes
+
+    continuous_focus_position = { x = 50 y = 2000 }
+
+}

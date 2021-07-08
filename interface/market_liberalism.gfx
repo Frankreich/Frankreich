@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_market_liberalism_group"
+		texturefile = "gfx//interface//ideologies//market_liberalism_group.dds"
+	}
+}

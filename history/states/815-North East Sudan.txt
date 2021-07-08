@@ -1,0 +1,22 @@
+
+state={
+	id=815
+	name="North East Sudan"
+	manpower = 5060
+	
+	state_category = wasteland
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 0
+		}
+
+		add_core_of = SUD
+
+	}
+
+	provinces={
+		4138 8105 10745 10902 1977
+	}
+}

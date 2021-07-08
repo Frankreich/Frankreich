@@ -1,0 +1,22 @@
+state= {
+	id=808
+	name="Baden"
+	manpower = 1695618
+	state_category = rural
+	
+	history=
+	{
+		owner = BAD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+		}
+		add_core_of = GER
+		add_core_of = BAD
+	}	
+	provinces= {
+		589 3530 3574 3679 3692 6568 6542 6581 6594 6712 9557 11640 
+ 	}
+}
