@@ -12,8 +12,7 @@ state={
 		#victory_points = {
 		#	11386 1
 		#}
-		owner = POL
-		controller = POL
+		owner = GER
 		
 		buildings = {
 			infrastructure = 6
@@ -23,6 +22,6 @@ state={
 	}
 
 	provinces={
-		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+		266 6375 9327 9346 9372 9398 11245 
 	}
 }

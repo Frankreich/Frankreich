@@ -353,10 +353,10 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Douglas McArthur"
-	desc = ""
+	desc = "POLITICS_McArthur_DESC"
 	picture = "JAP_douglas_mcarthur.dds"
 	expire = "1989.1.1"
-	ideology = conservatism
+	ideology = market_liberal
 	traits = {
 	}
 }

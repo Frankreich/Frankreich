@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = POR
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -25,6 +25,6 @@ state={
 	}
 
 	provinces={
-		2120 2123 2159 2180 2193 2202 2217 5155 5164 5177 5212 8245 10972 12935 12950 12971 
+		2120 2123 2159 2180 2193 2202 2217 5155 5164 5177 5212 10972 12935 12950 12971 
 	}
 }

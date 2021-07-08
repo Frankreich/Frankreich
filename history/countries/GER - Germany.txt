@@ -292,14 +292,14 @@ create_import = {
 1936.1.1 = {
 
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = unitism
 		last_election = "1933.3.5"
 		election_frequency = 48
 		elections_allowed = no
 		}
 	set_popularities = {
-		democratic = 5
-		fascism = 95
+		unitism = 90
+		fascism = 10
 		}
 
 	add_ideas = {
@@ -310,16 +310,13 @@ create_import = {
 		partial_economic_mobilisation
 	}
 }
-add_ideas = GER_mefo_bills_1
-
-activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "GER_LEAD_Adolf_Hitler.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = unitism_type
 	traits = {
 		dictator
 	}

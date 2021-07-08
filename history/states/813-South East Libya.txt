@@ -1,0 +1,23 @@
+
+state={
+	id=813
+	name="South East Libya"
+	manpower = 14340
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 0
+		}
+
+		add_core_of = LIB
+
+	}
+
+	provinces={
+		1060 1140 1057 10104 4191 11951 10785 10754 1994
+	}
+}
