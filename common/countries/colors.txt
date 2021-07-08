@@ -174,12 +174,12 @@ ETH = {
 	color_ui = rgb { 100 100 100 }
 }
 GUA = {
-	color = rgb { 72 49 112 }
-	color_ui = rgb { 72 49 112 }
+	color = rgb { 120 96 142 }
+	color_ui = rgb { 120 96 142 }
 }
 HON = {
-	color = rgb { 128 145 65 }
-	color_ui = rgb { 128 145 65 }
+	color = rgb { 84 115 162  }
+	color_ui = rgb { 84 115 162 }
 }
 IRQ = {
 	color = rgb { 178 114 99 }
@@ -258,7 +258,7 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
+	color = rgb { 104 155 202 }
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
@@ -750,4 +750,28 @@ BAD = {
 WEP = {
 	color = rgb { 74 95 133 }
 	color_ui = rgb { 74 95 133 }
+}
+GYA = {
+	color = rgb { 62 110 182 }
+	color_ui = rgb { 62 110 182 }
+}
+NGA = {
+	color = rgb { 111 73 73 }
+	color_ui = rgb { 111 73 73 }
+}
+GHA = {
+	color = rgb { 138 101 101 }
+	color_ui = rgb { 138 101 101 }
+}
+SIE = {
+	color = rgb { 138 101 101 }
+	color_ui = rgb { 138 101 101 }
+}
+GAM = {
+	color = rgb { 138 101 101 }
+	color_ui = rgb { 138 101 101 }
+}
+BLZ = {
+	color = rgb { 113 182 200 }
+	color_ui = rgb { 113 182 200 }
 }
