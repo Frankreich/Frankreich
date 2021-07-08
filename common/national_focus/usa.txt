@@ -98,10 +98,10 @@ focus_tree = {
 	focus = {
 		id = make_bonding_time_for_our_allies
 		icon = GFX_focus_chi_mission_to_the_us
-	    x = 15
-		y = 2
+	    x = -4
+		y = 1
 		
-		#relative_position_id = assessing_the_situation
+		relative_position_id = assessing_the_situation
 
 		available = {
 
@@ -129,10 +129,10 @@ focus_tree = {
 	focus = {
 		id = talk_with_the_french_paliamentarians
 		icon = GFX_focus_chi_reach_out_to_france
-	    x = 14
-		y = 3
+	    x = -1
+		y = 1
 		
-		#relative_position_id = make_bonding_time_for_our_allies
+		relative_position_id = make_bonding_time_for_our_allies
 
 		available = {
 
@@ -160,10 +160,10 @@ focus_tree = {
 	focus = {
 		id = call_up_ottawa
 		icon = GFX_focus_generic_monarchy_1
-	    x = 16
-		y = 3
+	    x = 1
+		y = 1
 		
-		#relative_position_id = make_bonding_time_for_our_allies
+		relative_position_id = make_bonding_time_for_our_allies
 
 		available = {
 
@@ -191,11 +191,10 @@ focus_tree = {
 	focus = {
 		id = look_for_more_allies
 		icon = GFX_focus_usa_focus_on_europe
-	    x = 15
-		y = 4
+	    x = 0
+		y = 2
 		
-		#relative_position_id = talk_with_the_french_paliamentarians
-		#relative_position_id = call_up_ottawa
+		relative_position_id = make_bonding_time_for_our_allies
 
 		available = {
 
@@ -352,10 +351,10 @@ focus_tree = {
 	focus = {
 		id = deal_with_the_radicals_within_our_border
 		icon = GFX_focus_generic_strike_at_democracy1
-	    x = 25
-		y = 2
+	    x = 4
+		y = 1
 		
-		#relative_position_id = assessing_the_situation
+		relative_position_id = assessing_the_situation
 
 		available = {
 
@@ -383,10 +382,10 @@ focus_tree = {
 	focus = {
 		id = send_spies_to_afp_and_dsp_meetings
 		icon = GFX_focus_generic_military_mission
-	    x = 24
-		y = 3
+	    x = -1
+		y = 1
 		
-		#relative_position_id = deal_with_the_radicals_within_our_border
+		relative_position_id = deal_with_the_radicals_within_our_border
 
 		available = {
 
@@ -410,10 +409,10 @@ focus_tree = {
 	focus = {
 		id = declare_the_klan_as_a_terrorist_organization
 		icon = GFX_focus_por_workers_of_iberia
-	    x = 26
-		y = 3
+	    x = 1
+		y = 1
 		
-		#relative_position_id = deal_with_the_radicals_within_our_border
+		relative_position_id = deal_with_the_radicals_within_our_border
 
 		available = {
 
@@ -441,11 +440,10 @@ focus_tree = {
 	focus = {
 		id = prepare_for_the_next_election
 		icon = GFX_focus_usa_voter_registration_act
-	    x = 25
-		y = 4
+	    x = 0
+		y = 2
 		
-		#relative_position_id = send_spies_to_afp_and_dsp_meetings
-		#relative_position_id = ask_the_democrats_for_a_grand_coalition
+		relative_position_id = deal_with_the_radicals_within_our_border
 
 		available = {
 
@@ -523,7 +521,7 @@ focus_tree = {
 			add_political_power = 100
 		}
 
-		x = -5
+		x = -2
 		y = 1
 
 
@@ -579,7 +577,7 @@ focus_tree = {
 			add_political_power = -100
 		}
 
-		x = 5
+		x = 2
 		y = 1
 	}
 	# BRANCH - Try Something Else

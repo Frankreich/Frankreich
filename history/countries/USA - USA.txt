@@ -93,7 +93,7 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
+
 }
 
 #Monroe Doctrine
@@ -130,22 +130,19 @@ set_politics = {
 }
 set_popularities = {
 
-	democratic = 23 # REPUBLICAN CONSERVATIVES
+	democratic = 22 # REPUBLICAN CONSERVATIVES
 	market_liberalism = 26 # REPUBLICAN LIBERALS
 
 	social_liberalism = 24 # DEMOCRAT LIBERALS
-	social_democracy = 23 # DEMOCRAT PROGRESSIVES
+	social_democracy = 22 # DEMOCRAT PROGRESSIVES
 
 	communism = 2
 	fascism = 2
+	neutrality = 2
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+
 }
 
 

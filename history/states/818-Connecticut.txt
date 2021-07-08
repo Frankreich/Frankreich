@@ -1,0 +1,39 @@
+state={
+	id=818
+	name="STATE_818"
+	resources={
+		steel=6
+	}
+
+	state_category = large_town
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 5
+            
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+
+		victory_points = {
+			9832 1 
+		}
+
+	}
+
+	provinces={
+		6909 9832 9847 9850 11830
+	}
+	manpower=2016034
+	buildings_max_level_factor=1.000
+}

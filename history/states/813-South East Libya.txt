@@ -1,7 +1,7 @@
 
 state={
 	id=813
-	name="South East Libya"
+	name="STATE_813"
 	manpower = 14340
 	
 	state_category = wasteland

@@ -52,11 +52,11 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "chart_explanation" position = { x = 334 y = 297 } 
-			size = { width = 216 height = 80 }
+			name = "chart_explanation" position = { x = 310 y = 290 } 
+			size = { width = 230 height = 90 }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider"
-			margin = { top = 13 left = 0 bottom = 13 right = 0 }
+			margin = { top = 13 left = 6 bottom = 11 right = 0 }
 		
 		
 			background = {
@@ -77,7 +77,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 270 y = 304 }
+			position = { x= 245 y = 304 }
 			size = { width=100 height=100 }
 			clipping = no
 
@@ -168,13 +168,13 @@ guiTypes = {
 				position = { x = 11 y = 28 }
 				font = "hoi_16mbs"
 				text = "elections"
-				maxWidth = 155
+				maxWidth = 130
 				maxHeight = 20
 			}
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 103 y = -45 }
+				position = { x = 168 y = -45 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 193
@@ -184,7 +184,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = 310 y = -50 }
+				position = { x = 110 y = -50 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
@@ -493,7 +493,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -42 y = 9 }
+			position = { x = -43 y = 9 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
