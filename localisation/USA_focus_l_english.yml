@@ -31,4 +31,19 @@
   declare_the_klan_as_a_terrorist_organization:0 "Declare the Klan as a Terrorist Organization"
  prepare_for_the_next_election:0 "Prepare for the Next Election" 
 
-  ask_the_democrats_for_a_grand_coalition:0 "Ask the Democrats for a Grand Coalition"
+ ask_the_democrats_for_a_grand_coalition:0 "Ask the Democrats for a Grand Coalition"
+
+ the_beginning_of_a_new_political_landscape:0 "The Beginning of a New Political Landscape"
+  the_beginning_of_a_new_political_landscape_desc:0 "YES! The democrats accepted the offer! Our grand coalition will definitely win the next election. Long live American democracy!"
+
+  finalize_the_coalition:0 "Finalize the Coalition" 
+   finalize_the_coalition_desc:0 "With the Democrats and the Republicans unofficially in a coalition, we should settle our differences and make it official."
+
+ pray_for_the_best:0 "Pray for the Best"
+  pray_for_the_best_desc:0 "Our dreams of a grand coalition have been shot down by the democrats. We now can only hope that the radicals do not gain the presidency."
+
+ try_something_else:0 "Try Something Else"
+   try_something_else_desc:0 "Our chances of re-election are slim at best, we need to severely increase investments in our campaign if we expect to win the next election."
+
+ presidential_election:0 "The 1952 Election"
+   presidential_election_desc:0 "It is that time again for elections. In the current political landscape, everything is up in the air. The only thing we can guarantee is violence and blood."

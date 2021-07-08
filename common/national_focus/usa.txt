@@ -499,8 +499,147 @@ focus_tree = {
 		}
 	}
 
+	# TRIBUTARY - The Beginning of a New Political Landscape
+	focus = {
+		id = the_beginning_of_a_new_political_landscape
+		icon = GFX_focus_generic_military_mission
+
+		relative_position_id = ask_the_democrats_for_a_grand_coalition
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		prerequisite = { focus = ask_the_democrats_for_a_grand_coalition }
+		mutually_exclusive = { focus = pray_for_the_best }
+
+		cost = 3
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		x = -5
+		y = 1
+
+
+	}
+	# BRANCH - Finalize the Coalition
+	focus = {
+		id = finalize_the_coalition
+		icon = GFX_focus_chi_mission_to_the_us
+
+		relative_position_id = the_beginning_of_a_new_political_landscape
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		prerequisite = { focus = the_beginning_of_a_new_political_landscape }
+
+		cost = 3
+
+		completion_reward = {
+
+		}
+
+		x = 0
+		y = 1
+	}
+	# TRIBUTARY - Pray For the Best
+	focus = {
+		id = pray_for_the_best
+		icon = GFX_focus_usa_union_representation_act
+
+		relative_position_id = ask_the_democrats_for_a_grand_coalition
+
+		available = {
+			
+		}
+		
+		bypass = {
+			
+		}
+
+		prerequisite = { focus = ask_the_democrats_for_a_grand_coalition }
+		mutually_exclusive = { focus = the_beginning_of_a_new_political_landscape }
+
+		cost = 3
+
+		completion_reward = {
+			add_stability = -0.15
+			add_political_power = -100
+		}
+
+		x = 5
+		y = 1
+	}
+	# BRANCH - Try Something Else
+	focus = {
+		id = try_something_else
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+
+		relative_position_id = pray_for_the_best
+		
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = { focus = pray_for_the_best }
+
+		cost = 3
+
+		completion_reward = {
+			
+		}
+
+		x = 0
+		y = 1
+
+	}
+	# BREAKOFF - The 1952 Election
+	focus = {
+		id = presidential_election
+		icon = GFX_focus_TUR_pivot_to_the_past
+
+		relative_position_id = ask_the_democrats_for_a_grand_coalition
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		prerequisite = { 
+		focus = finalize_the_coalition 
+		focus = try_something_else 
+		}
+
+		cost = 0
+
+		completion_reward = {
+			
+		}
+		
+		x = 0
+		y = 3
+	}
 	##########################################
-	######## | INDUSTRIALSUBSECTION | ########
+	######## | INDUSTRIAL SUBSECTION | #######
 	##########################################
 
 
