@@ -20,6 +20,10 @@ country_event = {
 	immediate = {
 	}
 	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
 	option = { # Let her join
 		name = "Curse at them!"
 		add_political_power = -10

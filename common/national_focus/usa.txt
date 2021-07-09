@@ -38,7 +38,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 75
-			country_event = usa.31
+			country_event = usa.1
 			add_stability = 0.10
 			add_command_power = 25
 
