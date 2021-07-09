@@ -259,7 +259,7 @@ YUN = {
 }
 USA = {
 	color = rgb { 104 155 202 }
-	color_ui = rgb { 87 160 255 }
+	color_ui = rgb { 104 155 202 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
