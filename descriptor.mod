@@ -12,4 +12,4 @@ tags={
 	"Sound"
 }
 name="Frankreich"
-supported_version="1.10.3"
+supported_version="1.10.5"
