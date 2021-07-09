@@ -18,75 +18,6 @@ add_ideas = {
 	JAP_militarism
 }
 
-609 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-527 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-525 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-745 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-524 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-647 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-684 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-633 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	add_ideas = {
-		JAP_interservice_rivalry_balanced		
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -323,8 +254,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 98
-	neutrality = 2
+	democratic = 70
+	neutrality = 5
+	social_democracy = 2
+	market_liberalism = 15
+	social_liberalism = 8
 }
 
 create_country_leader = {
@@ -352,12 +286,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Douglas McArthur"
-	desc = "POLITICS_McArthur_DESC"
+	name = "Douglas MacArthur"
+	desc = "POLITICS_MacArthur_DESC"
 	picture = "JAP_douglas_mcarthur.dds"
 	expire = "1989.1.1"
 	ideology = market_liberal
 	traits = {
+		american_caesar
+		hawk
 	}
 }
 

@@ -8911,10 +8911,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_usa_help_out_macarthur"
-		texturefile = "gfx/interface/goals/focus_usa_help_out_macarthur.dds"
+		texturefile = "gfx/interface/goals/focus_USA_help_out_macarthur.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_usa_help_out_macarthur.dds"
+			animationmaskfile = "gfx/interface/goals/focus_USA_help_out_macarthur.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -8927,7 +8927,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_usa_help_out_macarthur.dds"
+			animationmaskfile = "gfx/interface/goals/focus_USA_help_out_macarthur.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -8943,7 +8943,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_usa_send_military_equipment_to_japan"
-		texturefile = "gfx/interface/goals/focus_usa_send_military_equipment_to_japan.dds"
+		texturefile = "gfx/interface/goals/focus_USA_send_military_equipment_to_japan.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_usa_send_military_equipment_to_japan.dds"

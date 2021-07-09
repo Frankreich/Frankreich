@@ -130,15 +130,15 @@ set_politics = {
 }
 set_popularities = {
 
-	democratic = 22 # REPUBLICAN CONSERVATIVES
-	market_liberalism = 26 # REPUBLICAN LIBERALS
+	democratic = 17 # REPUBLICAN CONSERVATIVES
+	market_liberalism = 16 # REPUBLICAN LIBERALS
 
-	social_liberalism = 24 # DEMOCRAT LIBERALS
-	social_democracy = 22 # DEMOCRAT PROGRESSIVES
+	social_liberalism = 14 # DEMOCRAT LIBERALS
+	social_democracy = 17 # DEMOCRAT PROGRESSIVES
 
-	communism = 2
-	fascism = 2
-	neutrality = 2
+	communism = 12 # COMMUNIST PARTY USA
+	fascism = 12 # SILVER LEGION OF AMERICA
+	neutrality = 12 # AMERICA FREEDOM PARTY
 }
 
 add_ideas = {
@@ -169,6 +169,7 @@ create_country_leader = {
 	expire = "1963.1.1"
 	ideology = market_liberal
 	traits = {
+		
 	}
 }
 
