@@ -97,7 +97,7 @@ focus_tree = {
 	# MASTER - Make Bonding Time for our Allies
 	focus = {
 		id = make_bonding_time_for_our_allies
-		icon = GFX_focus_chi_mission_to_the_us
+		icon = GFX_focus_USA_make_bonding_time_for_our_allies
 	    x = -4
 		y = 1
 		
@@ -159,7 +159,7 @@ focus_tree = {
 	# TRIBUTARY - Call Up Ottawa
 	focus = {
 		id = call_up_ottawa
-		icon = GFX_focus_generic_monarchy_1
+		icon = GFX_focus_usa_call_up_ottawa
 	    x = 1
 		y = 1
 		
@@ -225,7 +225,7 @@ focus_tree = {
 	# MASTER - Help Out McArthur
 	focus = {
 		id = help_out_mcarthur
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_focus_usa_help_out_macarthur
 	    x = 20
 		y = 2
 		
@@ -256,7 +256,7 @@ focus_tree = {
 	# TRIBUTARY - Send Military Equipment to Japan
 	focus = {
 		id = send_military_equipment_to_japan
-		icon = GFX_focus_focus_fra_maquis
+		icon = GFX_focus_usa_send_military_equipment_to_japan
 	    x = 19
 		y = 3
 		
@@ -350,7 +350,7 @@ focus_tree = {
 	# MASTER - Deal with the Radicals Within Our Border
 	focus = {
 		id = deal_with_the_radicals_within_our_border
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = GFX_focus_USA_deal_with_the_radicals_within_our_border
 	    x = 4
 		y = 1
 		

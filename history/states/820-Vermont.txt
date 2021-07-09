@@ -1,0 +1,30 @@
+state={
+	id=820
+	name="STATE_820"
+	resources={
+		steel=2 # was: 20.000
+	}
+
+	state_category = rural
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		add_core_of = USA
+
+		victory_points = {
+			4445 1
+		}
+
+	}
+
+	provinces={
+		4445 7629 9675 13158
+	}
+	manpower=379000
+	buildings_max_level_factor=1.000
+}

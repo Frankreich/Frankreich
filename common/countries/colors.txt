@@ -58,8 +58,8 @@ SPR = {
 	color_ui = rgb { 93 105 117 }
 }
 ITA = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 70 78 97 }
+	color_ui = rgb { 70 78 97 }
 }
 ROM = {
 	color = rgb { 215 196 72 }
@@ -688,20 +688,20 @@ MEK = {
 	color_ui = rgb { 186 245 86 }
 }
 PRE = {
-	color = rgb { 91 101 127 }
-	color_ui = rgb { 91 101 127 }
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }
 SAX = {
-	color = rgb { 64 92 141 }
-	color_ui = rgb { 64 92 141 }
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }
 HAN = {
-	color = rgb { 90 111 147 }
-	color_ui = rgb { 90 111 147 }
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }
 WUR = {
-	color = rgb { 98 115 158 }
-	color_ui = rgb { 98 115 158 }
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }
 SHL = {
 	color = rgb { 51 51 255 }
@@ -744,12 +744,12 @@ NKR = {
 	color_ui = rgb { 163 67 65 }
 }
 BAD = {
-	color = rgb { 91 101 127 }
-	color_ui = rgb { 91 101 127 }
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }
 WEP = {
-	color = rgb { 74 95 133 }
-	color_ui = rgb { 74 95 133 }
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }
 GYA = {
 	color = rgb { 62 110 182 }

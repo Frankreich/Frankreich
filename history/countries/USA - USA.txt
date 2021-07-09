@@ -145,6 +145,11 @@ add_ideas = {
 
 }
 
+create_faction = "Democratic Security Treaty Organization"
+
+add_to_faction = USA
+add_to_faction = PHI
+add_to_faction = JAP
 
 # DIPLOMACY
 set_autonomy = {

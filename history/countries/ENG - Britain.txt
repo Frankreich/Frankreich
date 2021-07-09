@@ -137,49 +137,54 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
+		target = NOR
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
+		freedom_level = 0.2
+	}	
 	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = NIR
+		target = COG
 		autonomous_state = autonomy_colony
 		freedom_level = 0.2
-	}
+	}	
 	set_autonomy = {
-		target = AST
+		target = KEN
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
+	}	
 	set_autonomy = {
 		target = NOR
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}	
+	set_autonomy = {
+		target = GHA
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}	
+	set_autonomy = {
+		target = SIE
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}	
+	set_autonomy = {
+		target = GAM
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}	
+	set_autonomy = {
+		target = NGA
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}	
+
 	else = {
-		puppet = MAL
-		puppet = RAJ
-		puppet = NIR
+		puppet = NGA
+		puppet = COG
+		puppet = KEN
 		puppet = NOR
+		puppet = GHA
+		puppet = SIE
+		puppet = GAM
 	}
 }
 
@@ -357,24 +362,16 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 4
-	fascism = 88
+	fascism = 84
 	communism = 2
 	social_liberalism = 4
+	market_liberalism = 4
 	social_democracy = 2
 }
 
 
-create_faction = Allies
+create_faction = "Union of Fascists"
 add_to_faction = ENG
-#add_to_faction = FRA
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
-
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
-add_to_faction = MAL
 
 #give_guarantee = CZE
 
