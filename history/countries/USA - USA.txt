@@ -142,7 +142,8 @@ set_popularities = {
 }
 
 add_ideas = {
-
+	USA_house_divided
+	USA_department_of_defense
 }
 
 create_faction = "Democratic Security Treaty Organization"

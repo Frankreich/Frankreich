@@ -39,44 +39,9 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 75
 			country_event = usa.1
-			add_stability = 0.10
+			add_stability = 0.05
+			add_war_support = 0.05
 			add_command_power = 25
-
-			random_owned_controlled_state = {
-				limit {
-					is_core_of = ROOT
-					free_building_slots = {
-						building = industrial_complex
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}	  
-				
-			}
-
-			random_owned_controlled_state = {
-				limit {
-					is_core_of = ROOT
-					free_building_slots = {
-						building = industrial_complex
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}	  
-				
-			}
 		}
 
 		ai_will_do = {
@@ -640,39 +605,261 @@ focus_tree = {
 	######## | INDUSTRIAL SUBSECTION | #######
 	##########################################
 
+	# MASTER - The American Industry
+	focus = {
+		id = usa_the_american_industry
+		icon = GFX_focus_usa_the_american_industry
 
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 5
+
+		x = 33
+		y = 1
+
+		completion_reward = {
+
+			add_political_power = 25
+			add_stability = 0.05
+
+		}
+	}
+
+	# TRIBUTARY - National Highways
+	focus = {
+		id = usa_national_highways
+		icon = GFX_focus_usa_national_highways
+
+		relative_position_id = usa_the_american_industry
+		prerequisite = { focus = usa_the_american_industry }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 5
+
+		x = -3
+		y = 1
+
+		completion_reward = {
+
+			add_stability = 0.05
+
+			379 = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+
+			377 = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	# TRIBUTARY - Support Aviation Industries
+	focus = {
+		id = usa_support_aviation_industries
+		icon = GFX_focus_usa_escort_fighters
+
+		relative_position_id = usa_the_american_industry
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+
+		}
+
+		cost = 5
+
+		x = 3
+		y = 1
+
+		prerequisite = { focus = usa_the_american_industry }
+
+
+		completion_reward = {
+		
+			# LEVEL 2 CIVILIAN FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	  
+			}
+
+			# LEVEL 2 CIVILIAN FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}	  
+				}
+			}
+
+			# LEVEL 4 AIRBASE - RANDOM
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					include_locked = yes
+				}
+			
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+					
+				}
+			}
+
+			# LEVEL 4 AIRBASE - RANDOM
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					include_locked = yes
+				}
+			
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	# TRIBUTARY - Encourage Suburbanization
+	focus = {
+		id = usa_encourage_suburbanization
+		icon = GFX_focus_usa_encourage_suburbanization
+
+		relative_position_id = usa_the_american_industry
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+
+		}
+
+		cost = 5
+
+		prerequisite = { focus = usa_the_american_industry }
+
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+			add_manpower = 15000
+			
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	  
+			}
+
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	  
+			}
+		}
+	}
 
 	##########################################
 	######## |  MILITARY SUBSECTION | ########
 	##########################################
-	
-}
 
-#focus = {
-#	id = id_here
-#	icon = GFX_here
-#	y = 0
-#	#relative_position_id = relative_id_here
-#
-#	available = {
-#
-#	}
-#	bypass = {
-#
-#	}
-#
-#	cost = 0
-#	prerequisite = { focus = prerequisite_here}
-#
-#	cancel_if_invalid = yes
-#	continue_if_invalid = no
-#	available_if_capitulated = no
-#
-#	completion_reward = {
-#		reward_here
-#	}
-#
-#	ai_will_do = {
-#	ai_does_stuff_here
-#	}
-#}
+}

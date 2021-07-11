@@ -1562,7 +1562,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_USA_make_bonding_time_for_our_allies.dds"
 
 	}	
+	
+	SpriteType = {
+		name = "GFX_focus_usa_the_american_industry"
+		texturefile = "gfx/interface/goals/focus_usa_the_american_industry.dds"
 
+	}	
+	
+	SpriteType = {
+		name = "GFX_focus_usa_national_highways"
+		texturefile = "gfx/interface/goals/focus_usa_national_highways.dds"
+
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_usa_encourage_suburbanization"
+		texturefile = "gfx/interface/goals/focus_usa_encourage_suburbanization.dds"
+
+	}	
 	### HOL
 	
 	SpriteType = { 

@@ -24,9 +24,8 @@ bookmarks = {
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = market_liberalism
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
+				USA_house_divided
+				USA_department_of_defense
 			}
 			focuses = {
 				assessing_the_situation
