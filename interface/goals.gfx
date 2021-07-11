@@ -1580,6 +1580,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_usa_encourage_suburbanization.dds"
 
 	}	
+
+	SpriteType = {
+		name = "GFX_focus_usa_support_aviation_industries"
+		texturefile = "gfx/interface/goals/focus_usa_support_aviation_industries.dds"
+
+	}	
+	
 	### HOL
 	
 	SpriteType = { 

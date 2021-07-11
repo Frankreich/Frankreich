@@ -620,7 +620,7 @@ focus_tree = {
 
 		cost = 5
 
-		x = 33
+		x = 35
 		y = 1
 
 		completion_reward = {
@@ -649,19 +649,20 @@ focus_tree = {
 
 		cost = 5
 
-		x = -3
+		x = -4
 		y = 1
 
 		completion_reward = {
 
 			add_stability = 0.05
 
-			379 = {
+			375 = {
 				if = {
 					limit = { 
 						is_controlled_by = ROOT
 						is_core_of = ROOT 
 					}
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = infrastructure
 						level = 2
@@ -676,115 +677,12 @@ focus_tree = {
 						is_controlled_by = ROOT
 						is_core_of = ROOT 
 					}
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = infrastructure
 						level = 2
 						instant_build = yes
 					}
-				}
-			}
-		}
-	}
-
-	# TRIBUTARY - Support Aviation Industries
-	focus = {
-		id = usa_support_aviation_industries
-		icon = GFX_focus_usa_escort_fighters
-
-		relative_position_id = usa_the_american_industry
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-
-		}
-
-		cost = 5
-
-		x = 3
-		y = 1
-
-		prerequisite = { focus = usa_the_american_industry }
-
-
-		completion_reward = {
-		
-			# LEVEL 2 CIVILIAN FACTORY - RANDOM
-			random_owned_controlled_state = {
-				if = {
-					limit = { 
-						is_controlled_by = ROOT
-						is_core_of = ROOT 
-					}
-					
-					free_building_slots = {
-						building = industrial_complex
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}	  
-			}
-
-			# LEVEL 2 CIVILIAN FACTORY - RANDOM
-			random_owned_controlled_state = {
-				if = {
-					limit = { 
-						is_controlled_by = ROOT
-						is_core_of = ROOT 
-					}
-					
-					free_building_slots = {
-						building = industrial_complex
-						size > 2
-						include_locked = yes
-					}
-				
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}	  
-				}
-			}
-
-			# LEVEL 4 AIRBASE - RANDOM
-			random_owned_controlled_state = {
-				limit {
-					is_controlled_by = ROOT
-					is_core_of = ROOT
-					include_locked = yes
-				}
-			
-				add_building_construction = {
-					type = air_base
-					level = 4
-					instant_build = yes
-					
-				}
-			}
-
-			# LEVEL 4 AIRBASE - RANDOM
-			random_owned_controlled_state = {
-				limit {
-					is_controlled_by = ROOT
-					is_core_of = ROOT
-					include_locked = yes
-				}
-			
-				add_building_construction = {
-					type = air_base
-					level = 4
-					instant_build = yes
 				}
 			}
 		}
@@ -854,6 +752,165 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}	  
+			}
+		}
+	}
+
+#	# BRANCH - Military Industrial Complex
+#	focus = {
+		id = usa_military_industrial_complex
+		icon = GFX_focus_usa_the_american_industry
+
+		relative_position_id = usa_encourage_suburbanization
+
+		prerequisite = { focus = usa_encourage_suburbanization }
+		prerequisite = { focus = usa_support_aviation_industries }
+
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 5
+
+		x = 2
+		y = 1
+
+		completion_reward = {
+
+			# LEVEL 2 MILITARY FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}	  
+			}
+
+			# LEVEL 2 MILITARY FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT
+						
+					}
+				}
+				
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					
+				}
+			}			
+
+		}
+#	}
+
+	# TRIBUTARY - Support Aviation Industries
+	focus = {
+		id = usa_support_aviation_industries
+		icon = GFX_focus_usa_support_aviation_industries
+
+		relative_position_id = usa_the_american_industry
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+
+		}
+
+		cost = 5
+
+		x = 4
+		y = 1
+
+		prerequisite = { focus = usa_the_american_industry }
+
+
+		completion_reward = {
+		
+			# LEVEL 2 CIVILIAN FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	  
+			}
+
+			# LEVEL 2 MILITARY FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT
+						
+					}
+				}
+				
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					
+				}
+			}
+			
+
+			# LEVEL 4 AIRBASE - RANDOM
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					include_locked = yes
+				}
+			
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+					
+				}
+			}
+
+			# LEVEL 4 AIRBASE - RANDOM
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					include_locked = yes
+				}
+			
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
 			}
 		}
 	}

@@ -46,13 +46,11 @@ bookmarks = {
 			}
 		}
 
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = unitism
+		"ETH"={
+			history = "ETH_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
+	
 			}
 			focuses = {
 
