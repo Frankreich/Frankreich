@@ -20,7 +20,7 @@ focus_tree = {
 	######## |     MAIN FOCUS      |  ########
 	##########################################
 
-	#Assessing the Situation
+	# MASTER - Assessing the Situation
 	focus = {
 		id = assessing_the_situation
 		icon = GFX_focus_usa_build_the_pentagon
@@ -184,10 +184,10 @@ focus_tree = {
 	}
 
 	##########################################
-	###### | HELP MCARTHUR - FOCUSES | #######
+	###### | HELP MACARTHUR - FOCUSES | #######
 	##########################################
 
-	# MASTER - Help Out McArthur
+	# MASTER - Help Out MacArthur
 	focus = {
 		id = help_out_mcarthur
 		icon = GFX_focus_usa_help_out_macarthur
@@ -756,8 +756,8 @@ focus_tree = {
 		}
 	}
 
-#	# BRANCH - Military Industrial Complex
-#	focus = {
+ #	# BRANCH - Military Industrial Complex
+ #	focus = {
 		id = usa_military_industrial_complex
 		icon = GFX_focus_usa_the_american_industry
 
@@ -818,7 +818,7 @@ focus_tree = {
 			}			
 
 		}
-#	}
+ #	}
 
 	# TRIBUTARY - Support Aviation Industries
 	focus = {
