@@ -10,30 +10,14 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		clipping = no
 		show_sound = latin_spring_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
 
-		background = {
-			name = "Background"
-			quadTextureSprite =""
-		}
-
-		instantTextBoxType = {
-			name = "Title"
-			position = { x = 80 y = -60}
-			font = "aldrich_18_outline"
-			borderSize = {x = 0 y = 0}
-			text = "BE_LATIN_WARS_T" ###### HERE GOES THE TITLE ########
-			maxWidth = 220
-			maxHeight = 24
-			format = centre
-		}
 
 		iconType = {
 			name ="image"
 			spriteType = "GFX_superevent_custom_latin_wars"
-			position = { x= -286 y = -18 }
+			position = { x= -286 y = -22 }
 			Orientation = center
 			alwaystransparent = yes
 		}
-
 	}
 
 	containerWindowType = {
@@ -47,6 +31,17 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 226 y = 37}
+			font = "aldrich_18_outline"
+			borderSize = {x = 0 y = 0}
+			text = "BE_LATIN_WARS_T" ###### HERE GOES THE TITLE ########
+			maxWidth = 220
+			maxHeight = 24
+			format = centre
 		}
 
 		buttonType = {
