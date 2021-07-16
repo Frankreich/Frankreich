@@ -58,8 +58,8 @@ SPR = {
 	color_ui = rgb { 93 105 117 }
 }
 ITA = {
-	color = rgb { 70 78 97 }
-	color_ui = rgb { 70 78 97 }
+	color = rgb { 89 121 104 }
+	color_ui = rgb { 89 121 104 }
 }
 ROM = {
 	color = rgb { 215 196 72 }
@@ -774,4 +774,8 @@ GAM = {
 BLZ = {
 	color = rgb { 113 182 200 }
 	color_ui = rgb { 113 182 200 }
+}
+FAI = {
+	color = rgb { 70 78 97 }
+	color_ui = rgb { 70 78 97 }
 }
