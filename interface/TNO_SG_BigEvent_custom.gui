@@ -17,7 +17,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 
 		instantTextBoxType = {
 			name = "Title"
-			position = { x = 80 y = -50 }
+			position = { x = 80 y = -60}
 			font = "aldrich_18_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_LATIN_WARS_T" ###### HERE GOES THE TITLE ########
@@ -39,7 +39,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 	containerWindowType = {
 		name = "TNO_SG_big_event_frame_latin_wars_custom"
 		size = { width = 588 height = 465 }
-		position = { x=-20 y=-65 }
+		position = { x=-20 y=-75 }
 		Orientation = center
 		Origo = center
 		clipping = no
