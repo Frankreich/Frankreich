@@ -12,6 +12,10 @@ SOV = {
 	color = rgb { 232 236 230 }
 	color_ui = rgb { 201 206 200 }
 }
+GTL = {
+	color = rgb { 232 236 230 }
+	color_ui = rgb { 201 206 200 }
+}
 SWE = {
 	color = rgb { 86 118 196 }
 	color_ui = rgb { 86 118 196 }
