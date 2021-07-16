@@ -20,7 +20,7 @@ focus_tree = {
 	######## |     MAIN FOCUS      |  ########
 	##########################################
 
-	#Assessing the Situation
+	# MASTER - Assessing the Situation
 	focus = {
 		id = assessing_the_situation
 		icon = GFX_focus_usa_build_the_pentagon
@@ -38,45 +38,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 75
-			country_event = usa.31
-			add_stability = 0.10
+			country_event = usa.1
+			add_stability = 0.05
+			add_war_support = 0.05
 			add_command_power = 25
-
-			random_owned_controlled_state = {
-				limit {
-					is_core_of = ROOT
-					free_building_slots = {
-						building = industrial_complex
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}	  
-				
-			}
-
-			random_owned_controlled_state = {
-				limit {
-					is_core_of = ROOT
-					free_building_slots = {
-						building = industrial_complex
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}	  
-				
-			}
 		}
 
 		ai_will_do = {
@@ -97,11 +62,11 @@ focus_tree = {
 	# MASTER - Make Bonding Time for our Allies
 	focus = {
 		id = make_bonding_time_for_our_allies
-		icon = GFX_focus_chi_mission_to_the_us
-	    x = 15
-		y = 2
+		icon = GFX_focus_USA_make_bonding_time_for_our_allies
+	    x = -4
+		y = 1
 		
-		#relative_position_id = assessing_the_situation
+		relative_position_id = assessing_the_situation
 
 		available = {
 
@@ -129,10 +94,10 @@ focus_tree = {
 	focus = {
 		id = talk_with_the_french_paliamentarians
 		icon = GFX_focus_chi_reach_out_to_france
-	    x = 14
-		y = 3
+	    x = -1
+		y = 1
 		
-		#relative_position_id = make_bonding_time_for_our_allies
+		relative_position_id = make_bonding_time_for_our_allies
 
 		available = {
 
@@ -159,11 +124,11 @@ focus_tree = {
 	# TRIBUTARY - Call Up Ottawa
 	focus = {
 		id = call_up_ottawa
-		icon = GFX_focus_generic_monarchy_1
-	    x = 16
-		y = 3
+		icon = GFX_focus_usa_call_up_ottawa
+	    x = 1
+		y = 1
 		
-		#relative_position_id = make_bonding_time_for_our_allies
+		relative_position_id = make_bonding_time_for_our_allies
 
 		available = {
 
@@ -191,11 +156,10 @@ focus_tree = {
 	focus = {
 		id = look_for_more_allies
 		icon = GFX_focus_usa_focus_on_europe
-	    x = 15
-		y = 4
+	    x = 0
+		y = 2
 		
-		#relative_position_id = talk_with_the_french_paliamentarians
-		#relative_position_id = call_up_ottawa
+		relative_position_id = make_bonding_time_for_our_allies
 
 		available = {
 
@@ -220,13 +184,13 @@ focus_tree = {
 	}
 
 	##########################################
-	###### | HELP MCARTHUR - FOCUSES | #######
+	###### | HELP MACARTHUR - FOCUSES | #######
 	##########################################
 
-	# MASTER - Help Out McArthur
+	# MASTER - Help Out MacArthur
 	focus = {
 		id = help_out_mcarthur
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_focus_usa_help_out_macarthur
 	    x = 20
 		y = 2
 		
@@ -257,7 +221,7 @@ focus_tree = {
 	# TRIBUTARY - Send Military Equipment to Japan
 	focus = {
 		id = send_military_equipment_to_japan
-		icon = GFX_focus_focus_fra_maquis
+		icon = GFX_focus_usa_send_military_equipment_to_japan
 	    x = 19
 		y = 3
 		
@@ -351,11 +315,11 @@ focus_tree = {
 	# MASTER - Deal with the Radicals Within Our Border
 	focus = {
 		id = deal_with_the_radicals_within_our_border
-		icon = GFX_focus_generic_strike_at_democracy1
-	    x = 25
-		y = 2
+		icon = GFX_focus_USA_deal_with_the_radicals_within_our_border
+	    x = 4
+		y = 1
 		
-		#relative_position_id = assessing_the_situation
+		relative_position_id = assessing_the_situation
 
 		available = {
 
@@ -383,10 +347,10 @@ focus_tree = {
 	focus = {
 		id = send_spies_to_afp_and_dsp_meetings
 		icon = GFX_focus_generic_military_mission
-	    x = 24
-		y = 3
+	    x = -1
+		y = 1
 		
-		#relative_position_id = deal_with_the_radicals_within_our_border
+		relative_position_id = deal_with_the_radicals_within_our_border
 
 		available = {
 
@@ -410,10 +374,10 @@ focus_tree = {
 	focus = {
 		id = declare_the_klan_as_a_terrorist_organization
 		icon = GFX_focus_por_workers_of_iberia
-	    x = 26
-		y = 3
+	    x = 1
+		y = 1
 		
-		#relative_position_id = deal_with_the_radicals_within_our_border
+		relative_position_id = deal_with_the_radicals_within_our_border
 
 		available = {
 
@@ -441,11 +405,10 @@ focus_tree = {
 	focus = {
 		id = prepare_for_the_next_election
 		icon = GFX_focus_usa_voter_registration_act
-	    x = 25
-		y = 4
+	    x = 0
+		y = 2
 		
-		#relative_position_id = send_spies_to_afp_and_dsp_meetings
-		#relative_position_id = ask_the_democrats_for_a_grand_coalition
+		relative_position_id = deal_with_the_radicals_within_our_border
 
 		available = {
 
@@ -523,7 +486,7 @@ focus_tree = {
 			add_political_power = 100
 		}
 
-		x = -5
+		x = -2
 		y = 1
 
 
@@ -579,7 +542,7 @@ focus_tree = {
 			add_political_power = -100
 		}
 
-		x = 5
+		x = 2
 		y = 1
 	}
 	# BRANCH - Try Something Else
@@ -642,39 +605,318 @@ focus_tree = {
 	######## | INDUSTRIAL SUBSECTION | #######
 	##########################################
 
+	# MASTER - The American Industry
+	focus = {
+		id = usa_the_american_industry
+		icon = GFX_focus_usa_the_american_industry
 
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 5
+
+		x = 35
+		y = 1
+
+		completion_reward = {
+
+			add_political_power = 25
+			add_stability = 0.05
+
+		}
+	}
+
+	# TRIBUTARY - National Highways
+	focus = {
+		id = usa_national_highways
+		icon = GFX_focus_usa_national_highways
+
+		relative_position_id = usa_the_american_industry
+		prerequisite = { focus = usa_the_american_industry }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 5
+
+		x = -4
+		y = 1
+
+		completion_reward = {
+
+			add_stability = 0.05
+
+			375 = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+
+			377 = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	# TRIBUTARY - Encourage Suburbanization
+	focus = {
+		id = usa_encourage_suburbanization
+		icon = GFX_focus_usa_encourage_suburbanization
+
+		relative_position_id = usa_the_american_industry
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+
+		}
+
+		cost = 5
+
+		prerequisite = { focus = usa_the_american_industry }
+
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+			add_manpower = 15000
+			
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+					
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	  
+			}
+
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	  
+			}
+		}
+	}
+
+ #	# BRANCH - Military Industrial Complex
+ #	focus = {
+		id = usa_military_industrial_complex
+		icon = GFX_focus_usa_the_american_industry
+
+		relative_position_id = usa_encourage_suburbanization
+
+		prerequisite = { focus = usa_encourage_suburbanization }
+		prerequisite = { focus = usa_support_aviation_industries }
+
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 5
+
+		x = 2
+		y = 1
+
+		completion_reward = {
+
+			# LEVEL 2 MILITARY FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}	  
+			}
+
+			# LEVEL 2 MILITARY FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT
+						
+					}
+				}
+				
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					
+				}
+			}			
+
+		}
+ #	}
+
+	# TRIBUTARY - Support Aviation Industries
+	focus = {
+		id = usa_support_aviation_industries
+		icon = GFX_focus_usa_support_aviation_industries
+
+		relative_position_id = usa_the_american_industry
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+
+		}
+
+		cost = 5
+
+		x = 4
+		y = 1
+
+		prerequisite = { focus = usa_the_american_industry }
+
+
+		completion_reward = {
+		
+			# LEVEL 2 CIVILIAN FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT 
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	  
+			}
+
+			# LEVEL 2 MILITARY FACTORY - RANDOM
+			random_owned_controlled_state = {
+				if = {
+					limit = { 
+						is_controlled_by = ROOT
+						is_core_of = ROOT
+						
+					}
+				}
+				
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					
+				}
+			}
+			
+
+			# LEVEL 4 AIRBASE - RANDOM
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					include_locked = yes
+				}
+			
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+					
+				}
+			}
+
+			# LEVEL 4 AIRBASE - RANDOM
+			random_owned_controlled_state = {
+				limit {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					include_locked = yes
+				}
+			
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
 
 	##########################################
 	######## |  MILITARY SUBSECTION | ########
 	##########################################
-	
-}
 
-#focus = {
-#	id = id_here
-#	icon = GFX_here
-#	y = 0
-#	#relative_position_id = relative_id_here
-#
-#	available = {
-#
-#	}
-#	bypass = {
-#
-#	}
-#
-#	cost = 0
-#	prerequisite = { focus = prerequisite_here}
-#
-#	cancel_if_invalid = yes
-#	continue_if_invalid = no
-#	available_if_capitulated = no
-#
-#	completion_reward = {
-#		reward_here
-#	}
-#
-#	ai_will_do = {
-#	ai_does_stuff_here
-#	}
-#}
+}

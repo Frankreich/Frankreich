@@ -93,7 +93,7 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
+
 }
 
 #Monroe Doctrine
@@ -130,24 +130,27 @@ set_politics = {
 }
 set_popularities = {
 
-	democratic = 23 # REPUBLICAN CONSERVATIVES
-	market_liberalism = 26 # REPUBLICAN LIBERALS
+	democratic = 17 # REPUBLICAN CONSERVATIVES
+	market_liberalism = 16 # REPUBLICAN LIBERALS
 
-	social_liberalism = 24 # DEMOCRAT LIBERALS
-	social_democracy = 23 # DEMOCRAT PROGRESSIVES
+	social_liberalism = 14 # DEMOCRAT LIBERALS
+	social_democracy = 17 # DEMOCRAT PROGRESSIVES
 
-	communism = 2
-	fascism = 2
+	communism = 12 # COMMUNIST PARTY USA
+	fascism = 12 # SILVER LEGION OF AMERICA
+	neutrality = 12 # AMERICA FREEDOM PARTY
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+	USA_house_divided
+	USA_department_of_defense
 }
 
+create_faction = "Democratic Security Treaty Organization"
+
+add_to_faction = USA
+add_to_faction = PHI
+add_to_faction = JAP
 
 # DIPLOMACY
 set_autonomy = {
@@ -167,6 +170,7 @@ create_country_leader = {
 	expire = "1963.1.1"
 	ideology = market_liberal
 	traits = {
+		
 	}
 }
 

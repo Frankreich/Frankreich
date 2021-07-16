@@ -1534,6 +1534,58 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_attack_canada.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_focus_usa_call_up_ottawa"
+		texturefile = "gfx/interface/goals/focus_usa_call_up_ottawa.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_usa_help_out_macarthur"
+		texturefile = "gfx/interface/goals/focus_USA_help_out_macarthur.dds"
+				
+	}
+
+	SpriteType = {
+		name = "GFX_focus_usa_send_military_equipment_to_japan"
+		texturefile = "gfx/interface/goals/focus_usa_send_military_equipment_to_japan.dds"
+
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_USA_deal_with_the_radicals_within_our_border"
+		texturefile = "gfx/interface/goals/focus_USA_deal_with_the_radicals_within_our_border.dds"
+		
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_USA_make_bonding_time_for_our_allies"
+		texturefile = "gfx/interface/goals/focus_USA_make_bonding_time_for_our_allies.dds"
+
+	}	
+	
+	SpriteType = {
+		name = "GFX_focus_usa_the_american_industry"
+		texturefile = "gfx/interface/goals/focus_usa_the_american_industry.dds"
+
+	}	
+	
+	SpriteType = {
+		name = "GFX_focus_usa_national_highways"
+		texturefile = "gfx/interface/goals/focus_usa_national_highways.dds"
+
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_usa_encourage_suburbanization"
+		texturefile = "gfx/interface/goals/focus_usa_encourage_suburbanization.dds"
+
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_usa_support_aviation_industries"
+		texturefile = "gfx/interface/goals/focus_usa_support_aviation_industries.dds"
+
+	}	
 	
 	### HOL
 	
