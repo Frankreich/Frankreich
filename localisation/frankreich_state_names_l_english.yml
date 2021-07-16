@@ -1,5 +1,7 @@
 ﻿l_english: 
  STATE_357:0 "Maine"
+ STATE_378:0 "Southern California"
+ STATE_375:0 "Northern Texas"
  STATE_807:0 "Hamburg"
  STATE_808:0 "Baden"
  STATE_809:0 "Hockerland"
@@ -16,3 +18,5 @@
  STATE_820:0 "Vermont"
  STATE_821:0 "Rhode Island"
  STATE_822:0 "Delaware"
+ STATE_823:0 "Southern Texas"
+ STATE_824:0 "Northern California"
