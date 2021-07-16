@@ -7,12 +7,12 @@ state={
 	state_category = town
 
 	history={
-		owner = ORG
+		owner = KIR
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = SOV
-		add_core_of = ORG
+		add_core_of = GTL
+		add_core_of = KIR
 	}
 
 	provinces={

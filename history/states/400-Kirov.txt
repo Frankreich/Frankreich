@@ -10,12 +10,12 @@ state={
 	state_category = town
 
 	history={
-		owner = ORG
+		owner = KOM
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = SOV
-		add_core_of = ORG
+		add_core_of = GTL
+		add_core_of = KOM
 	}
 
 	provinces={

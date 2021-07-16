@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = ORG
+		owner = KIR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -19,8 +19,8 @@ state={
 		victory_points = {
 			4354 1 
 		}
-		add_core_of = SOV
-		add_core_of = ORG
+		add_core_of = GTL
+		add_core_of = KIR
 	}
 
 	provinces={

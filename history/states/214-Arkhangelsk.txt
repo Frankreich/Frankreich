@@ -19,7 +19,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = SOV
+		add_core_of = GTL
 		add_core_of = ALK
 		1939.1.1 = {
 			buildings = {
