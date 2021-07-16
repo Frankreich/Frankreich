@@ -1,6 +1,6 @@
 state={
 	id=809
-	name="Hockerland"
+	name="STATE_809"
 	manpower = 1238108
 	state_category = town
 

@@ -1,0 +1,26 @@
+#scripted_gui = {
+#	new_scripted_gui = {
+#		window_name = "chart_explanation"
+#		context_type = player_context
+
+#		visible = {
+#			always = no
+#		}
+#
+#		effects = {
+#			
+#		}
+#
+#		triggers = {
+#			
+#		}
+#
+#		dynamic_lists = {
+#			
+#		}
+#
+#		ai_enabled = {
+#			always = no
+#		}
+#	}
+#}

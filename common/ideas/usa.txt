@@ -1,6 +1,28 @@
 ideas = {
 
 	country = {
+
+		USA_house_divided = {
+			picture = usa_a_house_divided
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.30
+				war_support_factor = -0.20
+				consumer_goods_factor = 0.2
+				drift_defence_factor = -0.5
+				join_faction_tension = 1.0
+				justify_war_goal_time = 2.0
+			}
+		}
 		great_depression = {
 			picture = usa_great_depression_3
 			

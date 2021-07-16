@@ -1,7 +1,7 @@
 
 state={
 	id=815
-	name="North East Sudan"
+	name="STATE_815"
 	manpower = 5060
 	
 	state_category = wasteland
