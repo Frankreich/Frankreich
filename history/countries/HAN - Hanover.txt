@@ -116,17 +116,24 @@ set_stability = 0.75
 	}
 }
 
+if = {
+	limit = {
+		is_puppet_of = FRA
+	}
+
+	set_cosmetic_tag = FRA_PUPPET
+}
+
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = unitism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 
 }
 set_popularities = {
-	democratic = 30
+	unitism = 90
 	fascism = 10
-	communism = 60
 }
 
 add_ideas = {
