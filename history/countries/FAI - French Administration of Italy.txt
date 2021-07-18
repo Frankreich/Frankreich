@@ -1,6 +1,6 @@
 capital = 2
 
-oob = "ITA_1936"
+oob = "FAI_1936"
 
 set_research_slots = 4
 set_stability = 0.6
@@ -119,7 +119,7 @@ if = {
 	complete_national_focus = ITA_submarine_effort
 	complete_national_focus = ITA_bulgaria_friend
 	complete_national_focus = ITA_pact_of_steel
-	oob = "ITA_1939"
+	oob = "ITA_1939" 
 	set_technology = {
 		fighter1 = 1
 		fighter2 = 1
@@ -190,11 +190,6 @@ if = {
 		}
 		set_naval_oob = "ITA_1939_naval_mtg"
 	}
-	
-	set_stability = 0.8
-	GER = { add_to_faction = ITA }
-}
-
 
 set_convoys = 200
 
@@ -208,6 +203,7 @@ set_popularities = {
 	fascism = 10
     unitism = 90
 }
+
 create_country_leader = {
 	name = "WE DONT GOT ONE YET"
 	desc = ""
@@ -215,9 +211,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = unitism_type
 	traits = {
-		
+
 	}
 }
+
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
@@ -227,6 +224,7 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
 
 create_country_leader = {
 	name = "Ferruccio Parri"

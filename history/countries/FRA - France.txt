@@ -11,25 +11,29 @@ if = {
 	}
 }
 
-puppet = ITA
 puppet = SPR
 puppet = ALG
 puppet = GER
 puppet = DEN
+puppet = SWI
+puppet = FAI
+
+# German States
 puppet = WEP
 puppet = WUR
 puppet = SAX
 puppet = BAD
 puppet = PRE
+puppet = HAN
+puppet = BAY
 
-create_faction = "French Diplomatic Union"
+create_faction = "Bordeaux Pact"
+
 add_to_faction = GER
 add_to_faction = DEN
-add_to_faction = ITA
 add_to_faction = SPR
 add_to_faction = CZE
 add_to_faction = POL
-add_to_faction = HUN
 
 set_research_slots = 3
 set_stability = 0.5
