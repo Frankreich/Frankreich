@@ -243,6 +243,10 @@ ideologies = {
 			
 			anarchist_communism = {
 			}
+
+			imperial_totalism = {
+
+			}
 		}
 		
 		dynamic_faction_names = {
