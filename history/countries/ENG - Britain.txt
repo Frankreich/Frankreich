@@ -148,7 +148,7 @@ if = {
 	}	
 	set_autonomy = {
 		target = KEN
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}	
 	set_autonomy = {
@@ -173,10 +173,13 @@ if = {
 	}	
 	set_autonomy = {
 		target = NGA
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_puppet
+	}	
+	set_autonomy = {
+		target = TZN
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.2
 	}	
-
 	else = {
 		puppet = NGA
 		puppet = COG
@@ -185,6 +188,7 @@ if = {
 		puppet = GHA
 		puppet = SIE
 		puppet = GAM
+		puppet = TZN
 	}
 }
 

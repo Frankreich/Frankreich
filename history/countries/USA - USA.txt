@@ -131,14 +131,16 @@ set_politics = {
 set_popularities = {
 
 	democratic = 17 # REPUBLICAN CONSERVATIVES
-	market_liberalism = 16 # REPUBLICAN LIBERALS
+	market_liberalism = 17 # REPUBLICAN LIBERALS
 
-	social_liberalism = 14 # DEMOCRAT LIBERALS
-	social_democracy = 17 # DEMOCRAT PROGRESSIVES
+	social_liberalism = 15 # DEMOCRAT LIBERALS
+	social_democracy = 15 # DEMOCRAT PROGRESSIVES
 
-	communism = 12 # COMMUNIST PARTY USA
-	fascism = 12 # SILVER LEGION OF AMERICA
-	neutrality = 12 # AMERICA FREEDOM PARTY
+	communism = 11 # COMMUNIST PARTY USA
+
+	ultranationalism = 8 # BATSHIT INSANE PEOPLE
+	fascism = 8 # SILVER LEGION OF AMERICA
+	neutrality = 9 # AMERICA FREEDOM PARTY
 }
 
 add_ideas = {
@@ -154,6 +156,7 @@ add_to_faction = JAP
 add_to_faction = LIB
 
 # DIPLOMACY
+
 set_autonomy = {
 	target = PHI
 	autonomous_state =  autonomy_puppet

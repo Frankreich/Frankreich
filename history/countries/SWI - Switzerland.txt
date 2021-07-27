@@ -32,8 +32,8 @@ set_politics = {
 
 }
 set_popularities = {
-	unitism = 90
-	fascism = 10
+	unitism = 98
+	fascism = 2
 }
 
 add_ideas = {

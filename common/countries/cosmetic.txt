@@ -8,16 +8,6 @@ RAJ_UK = {
 	color_ui = rgb { 200  10  10 }
 }
 
-RAJ_FREE = {
-	color = rgb { 80  165  10 }
-	color_ui = rgb { 80  165  10 }
-}
-
-INS_HOL = {
-    color = rgb { 203 138 74 }
-    color_ui = rgb { 255 179 96 }
-}
-
 HUN_EMPIRE = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
@@ -651,7 +641,79 @@ TBE_third_bulgarian_empire_neutrality = {
 	color_ui = rgb { 138 249 195 }
 }
 
+# - FRANKREICH - #
+
 FRA_puppet = {
-	color = { 95 102 114 }
-	color_ui = { 95 102 114 }
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
+}
+
+# CHINA #
+
+GXC_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+YUN_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+XSM_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+SHX_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+# BRITISH PROTECTORATE
+
+# NOTES WHEN JOE PUSHES RUSSIA
+# CHANGE CONGO COLOR TO rgb { 125 162 210 }
+#
+
+ENG_NGA = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_KEN = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_COG = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_TZN = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_GHA = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_SIE = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+# FRENCH PUPPETS
+
+FRA_DEN = {
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
+}
+
+FRA_PRE = {
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }
