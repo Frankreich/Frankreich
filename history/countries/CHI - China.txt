@@ -134,6 +134,12 @@ if = {
 	}
 }
 
+# COSMETIC #
+
+set_cosmetic_tag = CHI_FGT
+
+# OTHER
+
 set_convoys = 40
 
 set_politics = {
@@ -154,13 +160,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Chiang Kai-Shek"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Chiang_Kai_Shek.dds"
+	name = "Zhang Xueliang"
+	desc = ""
+	picture = "CHI_LEAD_Zhang_Xueliang.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		generallissimo
+		
 	}
 }
 

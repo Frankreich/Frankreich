@@ -1065,6 +1065,8 @@
 
 # - CHINA - Chinese Section - #
 
+ CHI_FGT:0 "Republic of China"
+
  GXC_CHI:0 "Fengtian Administration of Southern China"
  XSM_CHI:0 "Fengtian Administration of Western China"
  YUN_CHI:0 "Fengtian Administration of Yunnan"
@@ -1079,5 +1081,10 @@
  ENG_GHA:0 "British Territory of Ghana"
  ENG_SIE:0 "British Territory of Sierre Leone"
 
+# - AMERICA - United States Section - #
+
+ JAP_USA:0 "Occupied Japan"
+
 # FRANKREICH FREE COUNTRIES
  RAJ_FREE:0 "Republic of India"
+ SAU_UNIFIED:0 "Arabia"

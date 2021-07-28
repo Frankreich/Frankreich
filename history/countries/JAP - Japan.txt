@@ -111,6 +111,8 @@ create_import = {
 		exporter = USA
 }
 
+set_cosmetic_tag = JAP_USA
+
 set_convoys = 400
 
 set_politics = {
