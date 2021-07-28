@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = KIR
+		owner = SAR
 		victory_points = {
 			11225 3 
 		}
@@ -18,11 +18,7 @@ state={
 		}
 		add_core_of = GTL
 		add_core_of = KIR
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
+		add_core_of = SAR
 	}
 
 	provinces={

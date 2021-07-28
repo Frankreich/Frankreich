@@ -654,6 +654,11 @@ FRA_puppet = {
 	color_ui = rgb { 95 102 114 }
 }
 
+FRA_MAD = {
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
+}
+
 # CHINA #
 
 GXC_CHI = {

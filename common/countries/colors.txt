@@ -130,8 +130,8 @@ ALG = {
 	color_ui = rgb { 80 111 145 }
 }
 AST = {
-	color = rgb { 57 143 97 }
-	color_ui = rgb { 74 186 126 }
+	color = rgb { 148 220 171 }
+	color_ui = rgb { 148 220 171 }
 }
 BHU = {
 	color = rgb { 172 122 88 }
@@ -238,8 +238,8 @@ SAU = {
 	color_ui = rgb { 60 160 89 }
 }
 SIA = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 121 205 200 }
+	color_ui = rgb { 121 205 200 }
 }
 SIK = {
 	color = rgb { 71 190 152 }
@@ -258,8 +258,8 @@ VEN = {
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {
-	color = rgb { 234 202 48 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 139 124 65 }
+	color_ui = rgb { 139 124 65 }
 }
 USA = {
 	color = rgb { 104 155 202 }
@@ -402,13 +402,13 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 40  50  120 }
-	color_ui = rgb { 40  50  120 }
+	color = rgb { 177 70 86 }
+	color_ui = rgb { 177 70 86 }
 }
 
 VIN = {
-	color = rgb { 202 86 86 }
-	color_ui = rgb { 202 86 86 }
+	color = rgb { 234 202 48 }
+	color_ui = rgb { 222 247 198 }
 }
 
 CAM = {
@@ -417,8 +417,8 @@ CAM = {
 }
 
 MAL = {
-	color = rgb { 197  96  100 }
-	color_ui = rgb { 213  169  121 }
+	color = rgb { 155 122 57 }
+	color_ui = rgb { 155 122 57 }
 }
 
 MNT = {
@@ -732,8 +732,8 @@ ORG = {
 	color_ui = rgb { 96 128 255 } 
 }
 ALO = {
-	color = hsv { 121 100 53 }
-	color_ui = HSV { 121 100 53 } 
+	color = rgb { 121 100 53 }
+	color_ui = rgb { 121 100 53 } 
 }
 ALK = {
 	color = rgb { 255 250 232 }

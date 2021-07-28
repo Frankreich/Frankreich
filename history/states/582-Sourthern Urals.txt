@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SAR
+		owner = ALO
 		buildings = {
 			infrastructure = 5
 

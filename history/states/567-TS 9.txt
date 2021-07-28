@@ -10,11 +10,12 @@ state={
 	}
 
 	history={
-		owner = TRS
+		owner = TAN
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = GTL
+		add_core_of = TAN
 		add_core_of = TRS
 	}
 
