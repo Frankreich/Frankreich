@@ -8,16 +8,6 @@ RAJ_UK = {
 	color_ui = rgb { 200  10  10 }
 }
 
-RAJ_FREE = {
-	color = rgb { 80  165  10 }
-	color_ui = rgb { 80  165  10 }
-}
-
-INS_HOL = {
-    color = rgb { 203 138 74 }
-    color_ui = rgb { 255 179 96 }
-}
-
 HUN_EMPIRE = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
@@ -259,21 +249,6 @@ ENG_imperial_federation_unified = {
 ENG_imperial_federation_india_unified = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 255 0 0 }
-}
-
-CAN_north_america_dominion = {
-	color = rgb { 160 0 0 }
-	color_ui = rgb { 235 0 0 }
-}
-
-CAN_UK = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 155 62 51 }
-}
-
-CAN_FREE = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
 }
 
 USA_CSA = {
@@ -664,4 +639,87 @@ TBE_third_bulgarian_empire_fascism = {
 TBE_third_bulgarian_empire_neutrality = {
 	color = rgb { 138 249 195 }
 	color_ui = rgb { 138 249 195 }
+}
+
+# - FRANKREICH - #
+
+# UNIFIED NATIONS #
+
+
+
+# FRENCH STUFF #
+
+FRA_puppet = {
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
+}
+
+# CHINA #
+
+GXC_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+YUN_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+XSM_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+SHX_CHI = {
+	color = rgb { 218 198 102 }
+	color_ui = rgb { 218 198 102 }
+}
+
+# BRITISH PROTECTORATE
+
+# NOTES WHEN JOE PUSHES RUSSIA
+# CHANGE CONGO COLOR TO rgb { 125 162 210 }
+#
+
+ENG_NGA = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_KEN = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_COG = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_TZN = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_GHA = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+ENG_SIE = {
+	color = rgb { 145 86 86 }
+	color_ui = rgb { 145 86 86 }
+}
+
+# FRENCH PUPPETS
+
+FRA_DEN = {
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
+}
+
+FRA_PRE = {
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
 }

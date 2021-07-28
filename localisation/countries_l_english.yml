@@ -3327,3 +3327,7 @@
  WEP:0 "Westphalian"
  WEP_DEF:0 "the Westphalian"
  WEP_ADJ:0 "Westphalian"
+ FAI_unitism:0 "French Administration of Italy"
+ FAI:0 "French Administration of Italy"
+ FAI_DEF:0 "the French Administration of Italy"
+ FAI_ADJ:0 "French Italian"

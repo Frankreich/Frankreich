@@ -183,20 +183,25 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
+	democratic = 5
+	market_liberalism = 5
+	social_liberalism = 5
 	fascism = 70
-	communism = 10
+	communism = 5
 	neutrality = 10
 }
 
-1939.1.1 = {
-	set_popularities = {
-		democratic = 13
-		fascism = 7
-		communism = 2
-		neutrality = 78
-	}
-}
+puppet = LIT
+puppet = LAT
+puppet = UKR
+puppet = BLR
+
+#if = {
+#	limit = {
+#		is_puppet_of = POL
+#	}
+#	set_cosmetic_tag = POL_PUPPET
+#}
 
 create_country_leader = {
 	name = "Władysław Sikorski"
