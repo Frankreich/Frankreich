@@ -11,50 +11,29 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = SPR
-		autonomous_state =  autonomy_frenchprotectorate
-	}
-	set_autonomy = {
-		target = ITA
-		autonomous_state =  autonomy_frenchprotectorate
-	}
-	set_autonomy = {
-		target = GER
-		autonomous_state =  autonomy_frenchprotectorate
-	}	
-	set_autonomy = {
-		target = ALG
-		autonomous_state =  autonomy_colony
-	}	
-	set_autonomy = {
-		target = DEN
-		autonomous_state =  autonomy_colony
-	}	
-	else = {
-		puppet = ITA
-		puppet = SPR
-		puppet = ALG
-		puppet = GER
-		puppet = DEN
-	}
-}
+puppet = SPR
+puppet = ALG
+puppet = GER
+puppet = DEN
+puppet = SWI
+puppet = FAI
 
-create_faction = "French Diplomatic Union"
+# German States
+puppet = WEP
+puppet = WUR
+puppet = SAX
+puppet = BAD
+puppet = PRE
+puppet = HAN
+puppet = BAY
+
+create_faction = "Bordeaux Pact"
+
 add_to_faction = GER
 add_to_faction = DEN
-add_to_faction = ITA
 add_to_faction = SPR
 add_to_faction = CZE
 add_to_faction = POL
-add_to_faction = HUN
 
 set_research_slots = 3
 set_stability = 0.5
@@ -156,9 +135,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 5
-	unitism = 85
-	fascism = 10
+	neutrality = 2
+	unitism = 95
+	fascism = 2
+	democratic = 1
 }
 
 add_ideas = {
@@ -273,18 +253,6 @@ create_field_marshal = {
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Charles De Gaulle"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	traits = {  armor_officer harsh_leader media_personality }
-	id = 101
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
 	logistics_skill = 2
 }
 

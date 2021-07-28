@@ -4,7 +4,7 @@ state={
 	history = {
 		add_core_of = CAM
 		add_claim_by = VIN
-		owner = VIN
+		owner = CAM
 		victory_points = {
 			7376 1
 		}

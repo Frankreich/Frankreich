@@ -1,6 +1,6 @@
 capital = 2
 
-oob = "ITA_1936"
+oob = "FAI_1936"
 
 set_research_slots = 4
 set_stability = 0.6
@@ -13,19 +13,6 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-550 = {
-	start_resistance = yes
-	set_compliance = 10
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-559 = {
-	start_resistance = yes
-	set_compliance = 10
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
 
 # Starting tech
 set_technology = {
@@ -107,30 +94,6 @@ if = {
 	add_ideas = MTG_naval_treaty_adherent
 }
 
-# DIPLOMACY / WAR 36
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
-
-	declare_war_on = {
-		target = ETH
-		type = annex_everything
-	}
-	give_guarantee = ALB
-}
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#white_peace = ETH
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		remove_ideas = MTG_naval_treaty_adherent
-	}
 	#adding ministers
 	add_ideas = {
 		ITA_giovanni_marinelli
@@ -156,7 +119,7 @@ if = {
 	complete_national_focus = ITA_submarine_effort
 	complete_national_focus = ITA_bulgaria_friend
 	complete_national_focus = ITA_pact_of_steel
-	oob = "ITA_1939"
+	oob = "ITA_1939" 
 	set_technology = {
 		fighter1 = 1
 		fighter2 = 1
@@ -227,11 +190,6 @@ if = {
 		}
 		set_naval_oob = "ITA_1939_naval_mtg"
 	}
-	
-	set_stability = 0.8
-	GER = { add_to_faction = ITA }
-}
-
 
 set_convoys = 200
 
@@ -245,6 +203,7 @@ set_popularities = {
 	fascism = 10
     unitism = 90
 }
+
 create_country_leader = {
 	name = "WE DONT GOT ONE YET"
 	desc = ""
@@ -252,9 +211,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = unitism_type
 	traits = {
-		
+
 	}
 }
+
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
@@ -264,6 +224,7 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
 
 create_country_leader = {
 	name = "Ferruccio Parri"

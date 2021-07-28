@@ -6,7 +6,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = VIN
+		owner = LAO
 		add_claim_by = VIN
 		add_core_of = LAO
 		victory_points = {

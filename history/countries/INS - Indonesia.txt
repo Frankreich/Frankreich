@@ -45,12 +45,23 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1934.5.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 set_convoys = 25
+
 set_popularities = {
 	democratic = 10
-	fascism = 10
-	communism = 30
-	neutrality = 50
+	fascism = 5
+	communism = 15
+	social_democracy = 35
+	neutrality = 15
+	social_liberalism = 10
+	market_liberalism = 10
 }
 
 create_country_leader = {
@@ -58,7 +69,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
+	ideology = socialist #Marhaenism his own unique mix of stuff
 	traits = {
 		
 	}
@@ -123,8 +134,6 @@ if = {
 		logistics_skill = 3
 	}
 }
-
-set_cosmetic_tag = INS_HOL # Netherlands East Indies
 
 1939.1.1 = {
 	add_political_power = 1198
