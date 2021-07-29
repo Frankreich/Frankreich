@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = KAZ
+		owner = KHM
 		victory_points = {
 			9292 5
 		}
@@ -17,7 +17,7 @@ state={
 
 		}
 		add_core_of = GTL
-		add_core_of = KAZ
+		add_core_of = KHM
 	}
 
 	provinces={

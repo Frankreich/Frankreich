@@ -3231,18 +3231,6 @@
  ROS:0 "Rostov"
  ROS_DEF:0 "Rostov"
  ROS_ADJ:0 "Rostov"
- STL_fascism:0 "Stalingrad"
- STL_fascism_DEF:0 "Stalingrad"
- STL_democratic:0 "Stalingrad"
- STL_democratic_DEF:0 "Stalingrad"
- STL_communism:0 "Stalingrad"
- STL_communism_DEF:0 "Stalingrad"
- STL_fascism_ADJ:0 "Stalingrad"
- STL_democratic_ADJ:0 "Stalingrad"
- STL_communism_ADJ:0 "Stalingrad"
- STL:0 "Stalingrad"
- STL_DEF:0 "Stalingrad"
- STL_ADJ:0 "Stalingrad"
  ORG_fascism:0 "Orengburg"
  ORG_fascism_DEF:0 "Orenburg"
  ORG_democratic:0 "Orenburg"
@@ -3279,18 +3267,6 @@
  ALK:0 "Arkhangelsk"
  ALK_DEF:0 "Arkhangelsk"
  ALK_ADJ:0 "Arkhangelsk"
- TRS_fascism:0 "Transibera"
- TRS_fascism_DEF:0 "Transiberia"
- TRS_democratic:0 "Transiberia"
- TRS_democratic_DEF:0 "Transiberia"
- TRS_communism:0 "Transiberia"
- TRS_communism_DEF:0 "Transiberia"
- TRS_fascism_ADJ:0 "Transiberia"
- TRS_democratic_ADJ:0 "Transiberia"
- TRS_communism_ADJ:0 "Transiberia"
- TRS:0 "Transiberia"
- TRS_DEF:0 "Transiberia"
- TRS_ADJ:0 "Transiberia"
  NKR_fascism:0 "Greater Korea"
  NKR_fascism_DEF:0 "the Greater Korea"
  NKR_democratic:0 "Democratic People's Republic of Korea"
@@ -3630,8 +3606,8 @@
 
       # DEMOCRACY
 
-      SAR_democratic:0 "Trudoviks"
-      SAR_democratic_DEF:0 "Trudovik Party of Saratov"
+      SAR_democratic:0 "Saratov"
+      SAR_democratic_DEF:0 "the Republic of Saratov"
 
       # MARKET LIBERALISM
 
@@ -3659,12 +3635,562 @@
 
     # ADJECTIVES
 
-      KOM_fascism_ADJ:0 "Komians"
-      KOM_democratic_ADJ:0 "Komi Republicans"
-      KOM_communism_ADJ:0 "Socialist Komians"
-
-    # MISC
-
       SAR_fascism_ADJ:0 "Saratovan"
       SAR_democratic_ADJ:0 "Saratov Republicans"
       SAR_communism_ADJ:0 "Socialist Saratovan"
+
+    # MISC
+
+      SAR:0 "Saratov"
+      SAR_DEF:0 "the Saratov"
+      SAR_ADJ:0 "Saratovans"
+
+ # VORONEZH #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      VOR_fascism:0 "Voronezh" 
+      VOR_fascism_DEF:0 "the Empire of Voronezh"
+
+      # DEMOCRACY
+
+      VOR_democratic:0 "Voronezh"
+      VOR_democratic_DEF:0 "the Republic of Voronezh"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      VOR_communism:0 "Voronezh"
+      VOR_communism_DEF:0 "the Socialist Voronezh"
+
+
+    # ADJECTIVES
+
+      VOR_fascism_ADJ:0 "Voronezhians"
+      VOR_democratic_ADJ:0 "Voronezhians"
+      VOR_communism_ADJ:0 "Voronezhians"
+
+    # MISC
+
+      VOR:0 "Voronezh"
+      VOR_DEF:0 "the Voronezh"
+      VOR_ADJ:0 "Voronezhians"
+
+ # STALINGRAD #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      STL_fascism:0 "Stalingrad"
+      STL_fascism_DEF:0 "the Empire of Stalingrad"
+
+      # DEMOCRACY
+
+      STL_democratic:0 "Stalingrad"
+      STL_democratic_DEF:0 "the Republic of Stalingrad"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      STL_communism:0 "Stalingrad"
+      STL_communism_DEF:0 "the Socialist Stalingrad"
+
+
+    # ADJECTIVES
+
+      STL_fascism_ADJ:0 "Stalingradians"
+      STL_democratic_ADJ:0 "Stalingradians"
+      STL_communism_ADJ:0 "Stalingradians"
+
+    # MISC
+
+      STL:0 "Stalingrad"
+      STL_DEF:0 "the Stalingrad"
+      STL_ADJ:0 "Stalingradians"
+
+ # NORTHWEST REVOLUTION #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      NWR_fascism:0 "Northwest Revolution"
+      NWR_fascism_DEF:0 "the Empire of the Northwest Revolution"
+
+      # DEMOCRACY
+
+      NWR_democratic:0 "Northwest Revolution"
+      NWR_democratic_DEF:0 "the Republic of the Northwest Revolution"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      NWR_communism:0 "Northwest Revolution"
+      NWR_communism_DEF:0 "the Socialist Northwest Revolution"
+
+
+    # ADJECTIVES
+
+      NWR_fascism_ADJ:0 "Northwest Revolutionaries"
+      NWR_democratic_ADJ:0 "Northwest Revolutionaries"
+      NWR_communism_ADJ:0 "Northwest Revolutionaries"
+
+    # MISC
+
+      NWR:0 "Northwest Revolution"
+      NWR_DEF:0 "the Northwest Revolution"
+      NWR_ADJ:0 "Northwest Revolutionaries"
+
+ # NENETS #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      NEN_fascism:0 "Nenets"
+      NEN_fascism_DEF:0 "the Empire of Nenets"
+
+      # DEMOCRACY
+
+      NEN_democratic:0 "Nenets"
+      NEN_democratic_DEF:0 "the Republic of Nenets"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      NEN_communism:0 "Nenets"
+      NEN_communism_DEF:0 "the Socialist Nenets"
+
+
+    # ADJECTIVES
+
+      NEN_fascism_ADJ:0 "Nenetsians"
+      NEN_democratic_ADJ:0 "Nenetsians"
+      NEN_communism_ADJ:0 "Nenetsians"
+
+    # MISC
+
+      NEN:0 "Nenets"
+      NEN_DEF:0 "the Nenets"
+      NEN_ADJ:0 "Nenetsians"
+
+ # TOMSK #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      TOM_fascism:0 "Tomsk"
+      TOM_fascism_DEF:0 "the Empire of Tomsk"
+
+      # DEMOCRACY
+
+      TOM_democratic:0 "Tomsk"
+      TOM_democratic_DEF:0 "the Republic of Tomsk"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      TOM_communism:0 "Tomsk"
+      TOM_communism_DEF:0 "the Socialist Tomsk"
+
+
+    # ADJECTIVES
+
+      TOM_fascism_ADJ:0 "Tomskians"
+      TOM_democratic_ADJ:0 "Tomskians"
+      TOM_communism_ADJ:0 "Tomskians"
+
+    # MISC
+
+      TOM:0 "Tomsk"
+      TOM_DEF:0 "the Tomsk"
+      TOM_ADJ:0 "Tomskians"
+
+ # KHANTIA MANSIA #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      KHM_fascism:0 "Khantia Mansia"
+      KHM_fascism_DEF:0 "the Empire of Khantia Mansia"
+
+      # DEMOCRACY
+
+      KHM_democratic:0 "Khantia Mansia"
+      KHM_democratic_DEF:0 "the Republic of Khantia Mansia"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      KHM_communism:0 "Khantia Mansia"
+      KHM_communism_DEF:0 "the Socialist Khantia Mansia"
+
+
+    # ADJECTIVES
+
+      KHM_fascism_ADJ:0 "Khantia Mansiaians"
+      KHM_democratic_ADJ:0 "Khantia Mansiaians"
+      KHM_communism_ADJ:0 "Khantia Mansiaians"
+
+    # MISC
+
+      KHM:0 "Khantia Mansia"
+      KHM_DEF:0 "the Khantia Mansia"
+      KHM_ADJ:0 "Khantia Mansiaians"
+
+ # MAGADAN #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      MAG_fascism:0 "Magadan"
+      MAG_fascism_DEF:0 "the Empire of Magadan"
+
+      # DEMOCRACY
+
+      MAG_democratic:0 "Magadan"
+      MAG_democratic_DEF:0 "the Republic of Magadan"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      MAG_communism:0 "Magadan"
+      MAG_communism_DEF:0 "the Socialist Magadan"
+
+
+    # ADJECTIVES
+
+      MAG_fascism_ADJ:0 "Magadanians"
+      MAG_democratic_ADJ:0 "Magadanians"
+      MAG_communism_ADJ:0 "Magadanians"
+
+    # MISC
+
+      MAG:0 "Magadan"
+      MAG_DEF:0 "the Magadan"
+      MAG_ADJ:0 "Magadanians"
+
+ # CHUKOTA #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      TRS_fascism:0 "Chukota"
+      TRS_fascism_DEF:0 "the Empire of Chukota"
+
+      # DEMOCRACY
+
+      TRS_democratic:0 "Chukota"
+      TRS_democratic_DEF:0 "the Republic of Chukota"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      TRS_communism:0 "Chukota"
+      TRS_communism_DEF:0 "the Socialist Chukota"
+
+
+    # ADJECTIVES
+
+      TRS_fascism_ADJ:0 "Chukotaians"
+      TRS_democratic_ADJ:0 "Chukotaians"
+      TRS_communism_ADJ:0 "Chukotaians"
+
+    # MISC
+
+      TRS:0 "Chukota"
+      TRS_DEF:0 "the Chukota"
+      TRS_ADJ:0 "Chukotaians"
+
+ # VLADIVOSTOK #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      VLD_fascism:0 "Government of Vladivostok"
+      VLD_fascism_DEF:0 "the Empire of Vladivostok"
+
+      # DEMOCRACY
+
+      VLD_democratic:0 "Government of Vladivostok"
+      VLD_democratic_DEF:0 "the Republic of Vladivostok"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      VLD_communism:0 "Government of Vladivostok"
+      VLD_communism_DEF:0 "the Socialist Vladivostok"
+
+
+    # ADJECTIVES
+
+      VLD_fascism_ADJ:0 "Vladivostokians"
+      VLD_democratic_ADJ:0 "Vladivostokians"
+      VLD_communism_ADJ:0 "Vladivostokians"
+
+    # MISC
+
+      VLD:0 "Government of Vladivostok"
+      VLD_DEF:0 "the Government of Vladivostok"
+      VLD_ADJ:0 "Vladivostokians"
+
+ # SIBERIA #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      SIB_fascism:0 "Siberian Empire"
+      SIB_fascism_DEF:0 "the Empire of Siberia"
+
+      # DEMOCRACY
+
+      SIB_democratic:0 "Siberian Republic"
+      SIB_democratic_DEF:0 "the Republic of Siberia"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      SIB_communism:0 "Siberian Socialist Republic"
+      SIB_communism_DEF:0 "the Socialist Siberia"
+
+
+    # ADJECTIVES
+
+      SIB_fascism_ADJ:0 "Siberians"
+      SIB_democratic_ADJ:0 "Siberians"
+      SIB_communism_ADJ:0 "Siberians"
+
+    # MISC
+
+      SIB:0 "Government of Siberia"
+      SIB_DEF:0 "the Government of Siberia"
+      SIB_ADJ:0 "Siberians"
+
+ # Altai Krai #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      ALT_fascism:0 "Altai Krai"
+      ALT_fascism_DEF:0 "the Empire of Altai Krai"
+
+      # DEMOCRACY
+
+      ALT_democratic:0 "Altai Krai"
+      ALT_democratic_DEF:0 "the Republic of Altai Krai"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      ALT_communism:0 "Altai Krai"
+      ALT_communism_DEF:0 "the Socialist Altai Krai"
+
+
+    # ADJECTIVES
+
+      ALT_fascism_ADJ:0 "Altai Kraians"
+      ALT_democratic_ADJ:0 "Altai Kraians"
+      ALT_communism_ADJ:0 "Altai Kraians"
+
+    # MISC
+
+      ALT:0 "Altai Krai"
+      ALT_DEF:0 "the Altai Krai"
+      ALT_ADJ:0 "Altai Kraians"

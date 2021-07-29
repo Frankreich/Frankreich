@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = KIR
+		owner = KOM
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = GTL
-		add_core_of = KIR
+		add_core_of = KOM
 	}
 
 	provinces={

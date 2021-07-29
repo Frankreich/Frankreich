@@ -724,8 +724,8 @@ ROS = {
 	color_ui = rgb { 168 144 103 } 
 }
 STL = {
-	color = rgb { 140 12 0 }
-	color_ui = rgb { 140 12 0 } 
+	color = rgb { 127 168 204 }
+	color_ui = rgb { 27 168 204 } 
 }
 ORG = {
 	color = rgb { 96 128 255 }
@@ -806,4 +806,40 @@ SAR = {
 VOR = {
 	color = rgb { 151 80 90  }
 	color_ui = rgb { 151 80 90 }
+}
+NWR = {
+	color = rgb { 83 96 177 }
+	color_ui = rgb { 83 96 177 }
+}
+NEN = {
+	color = rgb { 196 151 192 }
+	color_ui = rgb { 196 151 192 }
+}
+TOM = {
+	color = rgb { 114 189 168 }
+	color_ui = rgb { 114 189 168 }
+}
+KHM = {
+	color = rgb { 144 147 98 }
+	color_ui = rgb { 144 147 98 }
+}
+MAG = {
+	color = rgb { 193 177 111 }
+	color_ui = rgb { 193 177 111 }
+}
+TRS = {
+	color = rgb { 91 87 110 }
+	color_ui = rgb { 91 87 110 }
+}
+VLD = {
+	color = rgb { 160 113 117 }
+	color_ui = rgb { 160 113 117 }
+}
+SIB = {
+	color = rgb { 193 192 232 }
+	color_ui = rgb { 193 192 232 }
+}
+ALT = {
+	color = rgb { 83 109 185 }
+	color_ui = rgb { 83 109 185 }
 }

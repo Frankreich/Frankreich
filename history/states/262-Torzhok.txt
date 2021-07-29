@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = ALK
+		owner = NWR
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -20,7 +20,7 @@ state={
 
 		}
 		add_core_of = GTL
-		add_core_of = ALK
+		add_core_of = NWR
 	}
 
 	provinces={

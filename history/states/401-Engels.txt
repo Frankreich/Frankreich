@@ -12,12 +12,12 @@ state={
 	}
 
 	history={
-		owner = VOR
+		owner = STL
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = GTL
-		add_core_of = VOR
+		add_core_of = STL
 		victory_points = {
 			6502 1
 		}

@@ -1,0 +1,22 @@
+state={
+	id=829
+	name="STATE_829"
+
+	history={
+		owner = SIB
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = GTL
+		add_core_of = SIB
+
+	}
+
+	provinces={
+		2900 6085 9224 11122 13060
+	}
+	manpower=68364
+	buildings_max_level_factor=1
+	state_category="wasteland"
+}

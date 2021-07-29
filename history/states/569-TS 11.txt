@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = TAN
+		owner = ALT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -15,6 +15,7 @@ state={
 		add_core_of = GTL
 		add_core_of = TAN
 		add_core_of = KAZ
+		add_core_of = ALT
 		victory_points = {
 			7757 1
 		}

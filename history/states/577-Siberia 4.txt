@@ -10,12 +10,12 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = TRS
+		owner = TOM
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = GTL
-		add_core_of = TRS
+		add_core_of =  TOM
 	}
 
 	provinces={

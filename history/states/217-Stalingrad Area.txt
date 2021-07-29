@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = VOR
+		owner = STL
 		victory_points = {
 			3529 30.0
 		}
@@ -18,15 +18,10 @@ state={
 			air_base = 1
 		}
 		add_core_of = GTL
-		add_core_of = VOR
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
+		add_core_of = STL
 	}
 
 	provinces={
-	 520 3503 3517 3529 3555 6479 6541 6575 9504 9530 11395 11474 11484 
+	 520 545 3406 3503 3538 3517 3529 3555 6479 6541 6575 9504 9530 11395 11474 11538 11484 
 	}
 }
