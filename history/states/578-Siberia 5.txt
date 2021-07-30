@@ -7,12 +7,12 @@ state={
 	state_category = rural
 
 	history={
-		owner = KAZ
+		owner = TOM
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SOV
-		add_core_of = KAZ
+		add_core_of = GTL
+		add_core_of = TOM
 		victory_points = {
 			7789 1
 		}

@@ -645,11 +645,21 @@ TBE_third_bulgarian_empire_neutrality = {
 
 # UNIFIED NATIONS #
 
+# UNITED STATES #
 
+JAP_USA = {
+	color = rgb { 107 145 179 }
+	color_ui = rgb { 107 145 179 }
+}
 
 # FRENCH STUFF #
 
 FRA_puppet = {
+	color = rgb { 95 102 114 }
+	color_ui = rgb { 95 102 114 }
+}
+
+FRA_MAD = {
 	color = rgb { 95 102 114 }
 	color_ui = rgb { 95 102 114 }
 }

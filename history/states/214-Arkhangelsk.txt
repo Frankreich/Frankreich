@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = ALK
+		owner = NWR
 		victory_points = {
 			3338 5 
 		}
@@ -19,8 +19,8 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = SOV
-		add_core_of = ALK
+		add_core_of = GTL
+		add_core_of = NWR
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2

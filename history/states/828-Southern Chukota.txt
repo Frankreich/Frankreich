@@ -1,0 +1,22 @@
+state={
+	id=828
+	name="STATE_828"
+
+	history={
+		owner = TRS
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = GTL
+		add_core_of = TRS
+
+	}
+
+	provinces={
+		1865 10540
+	}
+	manpower=68364
+	buildings_max_level_factor=1
+	state_category="wasteland"
+}

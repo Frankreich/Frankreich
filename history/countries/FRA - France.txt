@@ -17,6 +17,7 @@ puppet = GER
 puppet = DEN
 puppet = SWI
 puppet = FAI
+puppet = MAD
 
 # German States
 puppet = WEP

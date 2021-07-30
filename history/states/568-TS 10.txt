@@ -7,14 +7,15 @@ state={
 	state_category = town
 
 	history={
-		owner = TRS
+		owner = TAN
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
 			4724 1 
 		}
-		add_core_of = SOV
+		add_core_of = GTL
+		add_core_of = TAN
 		add_core_of = TRS
 	}
 

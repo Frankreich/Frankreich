@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = TRS
+		owner = MAG
 		victory_points = {
 			4797 3 
 		}
@@ -19,8 +19,8 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = SOV
-		add_core_of = TRS
+		add_core_of = GTL
+		add_core_of = MAG
 	}
 
 	provinces={
