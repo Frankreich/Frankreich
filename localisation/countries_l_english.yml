@@ -251,8 +251,8 @@
  SPR:0 "Spain"
  SPR_DEF:0 "Spain"
  SPR_ADJ:0 "Spanish"
- ITA_fascism:0 "French Administration of Italy"
- ITA_fascism_DEF:0 "the French Administration of Italy"
+ ITA_fascism:0 "Italian Empire"
+ ITA_fascism_DEF:0 "the Italian Empire"
  ITA_democratic:0 "Republican Italy"
  ITA_democratic_DEF:0 "Republican Italy"
  ITA_neutrality:0 "Kingdom of Italy"
@@ -4244,3 +4244,53 @@
       ALT:0 "Anarchist Ukraine"
       AUK_DEF:0 "the Anarchist Ukraine"
       AUK_ADJ:0 "Anarchist Ukrainians"
+
+ # Crimea #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      CRI_fascism:0 "Crimea"
+      CRI_fascism_DEF:0 "the Empire of Crimea"
+
+      # DEMOCRACY
+
+      CRI_democratic:0 "Crimea"
+      CRI_democratic_DEF:0 "the Republic of Crimea"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      CRI_communism:0 "Crimea"
+      CRI_communism_DEF:0 "the Socialist Crimea"
+
+
+    # ADJECTIVES
+
+      CRI_fascism_ADJ:0 "Crimeans"
+      CRI_democratic_ADJ:0 "Crimeans"
+      CRI_communism_ADJ:0 "Crimeans"
+
+    # MISC
+
+      ALT:0 "Crimea"
+      CRI_DEF:0 "the Crimea"
+      CRI_ADJ:0 "Crimeans"
