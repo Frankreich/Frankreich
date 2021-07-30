@@ -843,3 +843,7 @@ ALT = {
 	color = rgb { 83 109 185 }
 	color_ui = rgb { 83 109 185 }
 }
+AUK = {
+	color = rgb { 61 67 71 }
+	color_ui = rgb { 61 67 71 }
+}

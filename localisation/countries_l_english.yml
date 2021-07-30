@@ -4194,3 +4194,53 @@
       ALT:0 "Altai Krai"
       ALT_DEF:0 "the Altai Krai"
       ALT_ADJ:0 "Altai Kraians"
+
+ # Anarchist Ukraine #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      AUK_fascism:0 "Anarchist Ukraine"
+      AUK_fascism_DEF:0 "the Empire of Anarchist Ukraine"
+
+      # DEMOCRACY
+
+      AUK_democratic:0 "Anarchist Ukraine"
+      AUK_democratic_DEF:0 "the Republic of Anarchist Ukraine"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # UNITISM
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      AUK_communism:0 "Anarchist Ukraine"
+      AUK_communism_DEF:0 "the Socialist Anarchist Ukraine"
+
+
+    # ADJECTIVES
+
+      AUK_fascism_ADJ:0 "Anarchist Ukrainians"
+      AUK_democratic_ADJ:0 "Anarchist Ukrainians"
+      AUK_communism_ADJ:0 "Anarchist Ukrainians"
+
+    # MISC
+
+      ALT:0 "Anarchist Ukraine"
+      AUK_DEF:0 "the Anarchist Ukraine"
+      AUK_ADJ:0 "Anarchist Ukrainians"
