@@ -74,8 +74,8 @@ YUG = {
 	color_ui = rgb { 154 136 170 }
 }
 SWI = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 164 68 68 }
+	color_ui = rgb { 164 68 68 }
 }
 TUR = {
 	color = rgb { 176 180 155 }
@@ -692,20 +692,20 @@ MEK = {
 	color_ui = rgb { 186 245 86 }
 }
 PRE = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 50 65 101 }
+	color_ui = rgb { 50 65 101 }
 }
 SAX = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 93 153 106 }
+	color_ui = rgb { 93 153 106 }
 }
 HAN = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 174 145 188 }
+	color_ui = rgb { 174 145 188 }
 }
 WUR = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 168 99 85 }
+	color_ui = rgb { 168 99 85 }
 }
 SHL = {
 	color = rgb { 51 51 255 }
@@ -748,12 +748,12 @@ NKR = {
 	color_ui = rgb { 163 67 65 }
 }
 BAD = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 182 128 85 }
+	color_ui = rgb { 182 128 85 }
 }
 WEP = {
-	color = rgb { 95 102 114 }
-	color_ui = rgb { 95 102 114 }
+	color = rgb { 195 188 159 }
+	color_ui = rgb { 195 188 159 }
 }
 GYA = {
 	color = rgb { 62 110 182 }
