@@ -9,12 +9,11 @@ state={
 	}
 
 	history={
-		owner = KOM
+		owner = NWR
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GTL
-		add_core_of = KOM
+		add_core_of = NWR
 	}
 
 	provinces={

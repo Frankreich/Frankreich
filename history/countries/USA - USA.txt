@@ -198,6 +198,7 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
 
 create_country_leader = {
 	name = "Raymond Allison"
@@ -207,8 +208,19 @@ create_country_leader = {
 	ideology = progressivism
 	traits = {
 			
-		}
+	}
+}
 
+create_field_marshal = {
+	name = "George C. Marshall"
+	picture = "Portrait_USA_George_C_Marshall.dds"
+	traits = { logistics_wizard organizer offensive_doctrine politically_connected superior_tactician }
+	skill = 5
+	id = 1000
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
 }
 
 create_corps_commander = {

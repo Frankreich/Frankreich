@@ -1,8 +1,8 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 70 78 97 }
-	color_ui = rgb { 71 79 99 }
+	color = rgb { 70 70 70 }
+	color_ui = rgb { 70 70 70 }
 }
 ENG = {
 	color = rgb { 161 80 80 }
@@ -58,8 +58,8 @@ LAT = {
 	color_ui = rgb { 167 93 93 }
 }
 SPR = {
-	color = rgb { 93 105 117 }
-	color_ui = rgb { 93 105 117 }
+	color = rgb { 230 209 105 }
+	color_ui = rgb { 230 209 105 }
 }
 ITA = {
 	color = rgb { 89 121 104 }
@@ -174,8 +174,8 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 80 80 80 }
-	color_ui = rgb { 100 100 100 }
+	color = rgb { 112 149 111 }
+	color_ui = rgb { 112 149 111 }
 }
 GUA = {
 	color = rgb { 120 96 142 }
@@ -792,8 +792,8 @@ TFA = {
 	color_ui = rgb { 99 144 110 }
 }
 KIR = {
-	color = rgb { 191 122 144  }
-	color_ui = rgb { 191 122 144 }
+	color = rgb { 116 189 153 }
+	color_ui = rgb { 116 189 153 }
 }
 KOM = {
 	color = rgb { 107 184 125 }
@@ -808,8 +808,8 @@ VOR = {
 	color_ui = rgb { 151 80 90 }
 }
 NWR = {
-	color = rgb { 83 96 177 }
-	color_ui = rgb { 83 96 177 }
+	color = rgb { 178 84 84 }
+	color_ui = rgb { 178 84 84 }
 }
 NEN = {
 	color = rgb { 196 151 192 }
@@ -836,8 +836,8 @@ VLD = {
 	color_ui = rgb { 160 113 117 }
 }
 SIB = {
-	color = rgb { 193 192 232 }
-	color_ui = rgb { 193 192 232 }
+	color = rgb { 83 96 177 }
+	color_ui = rgb { 83 96 177 }
 }
 ALT = {
 	color = rgb { 83 109 185 }
@@ -846,4 +846,8 @@ ALT = {
 AUK = {
 	color = rgb { 61 67 71 }
 	color_ui = rgb { 61 67 71 }
+}
+CRI = {
+	color = rgb { 76 83 100 }
+	color_ui = rgb { 76 83 100 }
 }

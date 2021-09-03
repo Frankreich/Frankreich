@@ -7,15 +7,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = KHM
+		owner = NWR
 		victory_points = {
 			4824 1
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GTL
-		add_core_of = KHM
+		add_core_of = NWR
 	}
 
 	provinces={

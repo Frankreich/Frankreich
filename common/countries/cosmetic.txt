@@ -724,10 +724,17 @@ ENG_SIE = {
 
 # FRENCH PUPPETS
 
+FRA_SAU = {
+	color = rgb { 78 103 146 }
+	color_ui = rgb { 78 103 146 }
+}
+
 FRA_DEN = {
 	color = rgb { 95 102 114 }
 	color_ui = rgb { 95 102 114 }
 }
+
+# GERMAN STATES
 
 FRA_PRE = {
 	color = rgb { 95 102 114 }

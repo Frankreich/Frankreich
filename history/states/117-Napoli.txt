@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = FAI
+		owner = ITA
 		victory_points = {
 			819 20 
 		}
@@ -25,13 +25,6 @@ state={
 			}
 		}
 		add_core_of = ITA
-		add_core_of = FAI
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={

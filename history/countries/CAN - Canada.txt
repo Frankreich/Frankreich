@@ -54,7 +54,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_liberalism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
@@ -62,8 +62,8 @@ set_politics = {
 
 set_popularities = {
 	democratic = 30
-	market_liberalism = 35
-	social_liberalism = 23
+	market_liberalism = 23
+	social_liberalism = 35
 	social_democracy = 10
 	fascism = 1
 	communism = 1
@@ -72,9 +72,20 @@ set_popularities = {
 create_country_leader = {
 	name = "Mackenzie King"
 	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
+	picture = "Portrait_CAN_Mackenzie_King.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = progressivism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Louis St. Laurent"
+	desc = "POLITICS_LOUIS_ST_LAURENT_DESC"
+	picture = "Portrait_CAN_Louis_St_Laurent.dds"
+	expire = "1965.1.1"
+	ideology = progressivism
 	traits = {
 		#
 	}

@@ -3,8 +3,7 @@ state={
 	name="STATE_584"
 
 	history={
-		add_core_of = TMS
-		owner = TMS
+		owner = KIR
 		victory_points = {
 			12333 1
 		}
@@ -13,8 +12,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = GTL
-		add_core_of = ALO
+		add_core_of = KIR
 	}
 
 	provinces={

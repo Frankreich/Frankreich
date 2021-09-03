@@ -1,4 +1,4 @@
-capital = 399 #Tbilisi
+capital = 234 #Tbilisi
 
 oob = "KIR_1936"
 

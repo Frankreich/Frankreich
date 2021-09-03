@@ -11,13 +11,12 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = VLD
+		owner = SIB
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 		}
-		add_core_of = GTL
-		add_core_of = VLD
+		add_core_of = SIB
 	}
 
 	provinces={

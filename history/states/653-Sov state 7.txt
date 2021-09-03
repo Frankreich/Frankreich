@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = KHM
+		owner = NWR
 		victory_points = {
 			1821 5
 		}
@@ -18,8 +18,7 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = GTL
-		add_core_of = KHM
+		add_core_of = NWR
 	}
 
 	provinces={

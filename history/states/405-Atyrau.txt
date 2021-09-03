@@ -3,8 +3,7 @@ state={
 	name="STATE_405"
 
 	history={
-		owner = UZB
-		add_core_of = UZB
+		owner = KIR
 		victory_points = {
 			1459 3 
 		}
@@ -14,15 +13,7 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = GTL
-		add_core_of = ALO
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-
-			}
-
-		}
+		add_core_of = KIR
 
 	}
 

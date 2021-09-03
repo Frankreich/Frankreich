@@ -11,13 +11,13 @@ if = {
 	}
 }
 
-puppet = SPR
 puppet = ALG
 puppet = GER
 puppet = DEN
 puppet = SWI
 puppet = FAI
 puppet = MAD
+puppet = SAU
 
 # German States
 puppet = WEP
@@ -130,14 +130,14 @@ if = {
 set_convoys = 300
 
 set_politics = {
-	ruling_party = unitism
+	ruling_party = communo_nationalism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	neutrality = 2
-	unitism = 95
+	communo_nationalism = 95
 	fascism = 2
 	democratic = 1
 }
@@ -185,7 +185,7 @@ create_country_leader = {
 	desc = "POLITICS_JACQUES_DORIOT_DESC"
 	picture = "FRA_LEAD_Jacques_Doriot.dds"
 	expire = "1965.1.1"
-	ideology = unitism_type
+	ideology = communo_nationalist
 	traits = {
 		
 	}

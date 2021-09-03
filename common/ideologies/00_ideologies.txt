@@ -442,11 +442,11 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	unitism = {
+	communo_nationalism = {
 	
 		types = {
 		
-			unitism_type = {
+			communo_nationalist = {
 			}
 		}
 		
@@ -458,13 +458,13 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 55 59 86 }
+		color = { 109 72 72 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}

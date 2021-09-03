@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = AUK
+		owner = KIR
 		victory_points = {
 			418 10
 		}
@@ -20,14 +20,7 @@ state={
 			arms_factory = 1
 			air_base = 5
 		}
-		add_core_of = GTL
-		add_core_of = UKR
-		add_core_of = AUK
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
+		add_core_of = KIR
 	}
 
 	provinces={
