@@ -3,11 +3,12 @@
 ###########################
 
 add_namespace = usa
+
 # Dewey Addresses the Pentagon
 country_event = {
 	id = usa.1
-	title = "Dewey Calls the Pentagon"
-	desc = "Dewey calls the Pentagon, and wildly they say something back. Amazing."
+	title = usa.1.t
+	desc = usa.1.d
 	picture = GFX_report_event_usa_election_roosevelt_dewey
 
 	fire_only_once = yes
@@ -24,14 +25,14 @@ country_event = {
 		days = 1
 	}
 	
-	option = { # Let her join
-		name = "Curse at them!"
+	option = { # Curse at them!
+		name = usa.1.a
 		add_political_power = -10
 		add_stability = -0.10
 		add_war_support = 0.10
 	}
-	option = { # Refuse
-		name = "Leave it be."
+	option = { # Leave it be...
+		name = usa.1.b
 		add_political_power = 100
 		add_war_support = -0.20
 	}

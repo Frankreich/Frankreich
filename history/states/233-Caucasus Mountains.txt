@@ -6,13 +6,12 @@ state={
 	}
 
 	history={
-		owner = GEO
+		owner = KIR
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = GTL
-		add_core_of = GEO
+		add_core_of = KIR
 
 		victory_points = {
 			9628 3

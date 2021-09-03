@@ -12,13 +12,12 @@ state={
 	}
 
 	history={
-		owner = MAG
+		owner = SIB
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = GTL
-		add_core_of = MAG
+		add_core_of = SIB
 	}
 
 	provinces={

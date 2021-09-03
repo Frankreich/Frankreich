@@ -7,9 +7,9 @@
  GER_neutrality_DEF:1 "the German Empire"
  GER_communism:0 "Socialist Republic of Germany"
  GER_communism_DEF:0 "the Socialist Republic of Germany"
- GER_unitism:0 "French Administration of Occupied Germany"
- GER_unitism_DEF:0 "the French Administration of Occupied Germany"
- GER_unitism_ADJ:0 "German"
+ GER_communo_nationalism:0 "French Administration of Occupied Germany"
+ GER_communo_nationalism_DEF:0 "the French Administration of Occupied Germany"
+ GER_communo_nationalism_ADJ:0 "German"
  GER_fascism_ADJ:0 "German"
  GER_democratic_ADJ:0 "German"
  GER_neutrality_ADJ:0 "German"
@@ -91,10 +91,10 @@
  FRA_neutrality_DEF:0 "the Kingdom of France"
  FRA_communism:0 "French Communist Authority"
  FRA_communism_DEF:0 "the French Communist Authority"
- FRA_unitism:0 "Greater Frankish Empire"
- FRA_unitism_DEF:0 "the Greater Frankish Empire"
+ FRA_communo_nationalism:0 "Greater Frankish Empire"
+ FRA_communo_nationalism_DEF:0 "the Greater Frankish Empire"
  FRA_fascism_ADJ:2 "French"
- FRA_unitism_ADJ:0 "Frankish"
+ FRA_communo_nationalism_ADJ:0 "Frankish"
  FRA_democratic_ADJ:0 "French"
  FRA_neutrality_ADJ:0 "French"
  FRA_communism_ADJ:0 "French"
@@ -236,8 +236,8 @@
  LAT:0 "Latvia"
  LAT_DEF:0 "Latvia"
  LAT_ADJ:0 "Latvian"
- SPR_fascism:0 "Spanish Authority"
- SPR_fascism_DEF:0 "Spanish Authority"
+ SPR_fascism:0 "Spanish Empire"
+ SPR_fascism_DEF:0 "Spanish Empire"
  SPR_democratic:0 "Spain"
  SPR_democratic_DEF:0 "Spain"
  SPR_neutrality:0 "Spanish Empire"
@@ -251,8 +251,8 @@
  SPR:0 "Spain"
  SPR_DEF:0 "Spain"
  SPR_ADJ:0 "Spanish"
- ITA_fascism:0 "French Administration of Italy"
- ITA_fascism_DEF:0 "the French Administration of Italy"
+ ITA_fascism:0 "Italian Empire"
+ ITA_fascism_DEF:0 "the Italian Empire"
  ITA_democratic:0 "Republican Italy"
  ITA_democratic_DEF:0 "Republican Italy"
  ITA_neutrality:0 "Kingdom of Italy"
@@ -3303,7 +3303,7 @@
  WEP:0 "Westphalian"
  WEP_DEF:0 "the Westphalian"
  WEP_ADJ:0 "Westphalian"
- FAI_unitism:0 "French Administration of Italy"
+ FAI_communo_nationalism:0 "French Administration of Italy"
  FAI:0 "French Administration of Italy"
  FAI_DEF:0 "the French Administration of Italy"
  FAI_ADJ:0 "French Italian"
@@ -3330,7 +3330,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3373,7 +3373,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3422,7 +3422,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3471,7 +3471,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3495,19 +3495,19 @@
       TFA_DEF:0 "the Fifth Army"
       TFA_ADJ:0 "Fifth Army"
 
- # KIROV #
+ # KIROV - AKA RUSSIAN REPUBLIC #
 
     # IDEOLOGIES
 
       # FASCISM
 
-      KIR_fascism:0 "Kirove" 
+      KIR_fascism:0 "Kirov" 
       KIR_fascism_DEF:0 "the Kirov Empire"
 
       # DEMOCRACY
 
-      KIR_democratic:0 "Kirov"
-      KIR_democratic_DEF:0 "the Kirov Republic"
+      KIR_democratic:0 "Russian Republic"
+      KIR_democratic_DEF:0 "the Russian Republic"
 
       # MARKET LIBERALISM
 
@@ -3521,7 +3521,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3571,7 +3571,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3621,7 +3621,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3671,7 +3671,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3721,7 +3721,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3745,7 +3745,7 @@
       STL_DEF:0 "the Stalingrad"
       STL_ADJ:0 "Stalingradians"
 
- # NORTHWEST REVOLUTION #
+ # NORTHWEST REVOLUTION - AKA SOVIET RUSSIA #
 
     # IDEOLOGIES
 
@@ -3756,8 +3756,8 @@
 
       # DEMOCRACY
 
-      NWR_democratic:0 "Northwest Revolution"
-      NWR_democratic_DEF:0 "the Republic of the Northwest Revolution"
+      NWR_democratic:0 "Northwest Revolutionary Front"
+      NWR_democratic_DEF:0 "the Republic of the Northwest Revolutionary Front"
 
       # MARKET LIBERALISM
 
@@ -3771,7 +3771,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3791,8 +3791,8 @@
 
     # MISC
 
-      NWR:0 "Northwest Revolution"
-      NWR_DEF:0 "the Northwest Revolution"
+      NWR:0 "Northwest Revolutionary Front"
+      NWR_DEF:0 "the Northwest Revolutionary Front"
       NWR_ADJ:0 "Northwest Revolutionaries"
 
  # NENETS #
@@ -3821,7 +3821,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3871,7 +3871,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3921,7 +3921,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -3971,7 +3971,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -4021,7 +4021,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -4071,7 +4071,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -4095,7 +4095,7 @@
       VLD_DEF:0 "the Government of Vladivostok"
       VLD_ADJ:0 "Vladivostokians"
 
- # SIBERIA #
+ # SIBERIA AKA ROYALIST RUSSIA #
 
     # IDEOLOGIES
 
@@ -4109,6 +4109,11 @@
       SIB_democratic:0 "Siberian Republic"
       SIB_democratic_DEF:0 "the Republic of Siberia"
 
+      # NEUTRALITY
+
+      SIB_neutrality:0 "Tsarist Russia"
+      SIB_neutrality_DEF:0 "the Tsarist Russia"
+
       # MARKET LIBERALISM
 
 
@@ -4121,7 +4126,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -4141,11 +4146,11 @@
 
     # MISC
 
-      SIB:0 "Government of Siberia"
-      SIB_DEF:0 "the Government of Siberia"
+      SIB:0 "Tsarist Russia"
+      SIB_DEF:0 "the Tsarist Russia"
       SIB_ADJ:0 "Siberians"
 
- # Altai Krai #
+ # ALTAI KRAI #
 
     # IDEOLOGIES
 
@@ -4171,7 +4176,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -4195,7 +4200,7 @@
       ALT_DEF:0 "the Altai Krai"
       ALT_ADJ:0 "Altai Kraians"
 
- # Anarchist Ukraine #
+ # ANARCHIST UKRAINE #
 
     # IDEOLOGIES
 
@@ -4221,7 +4226,7 @@
       # ULTRANATIONALISM
 
 
-      # UNITISM
+      # communo_nationalism
 
 
       # AUTHORITARIANISM
@@ -4244,3 +4249,53 @@
       ALT:0 "Anarchist Ukraine"
       AUK_DEF:0 "the Anarchist Ukraine"
       AUK_ADJ:0 "Anarchist Ukrainians"
+
+ # CRIMEA #
+
+    # IDEOLOGIES
+
+      # FASCISM
+
+      CRI_fascism:0 "Crimea"
+      CRI_fascism_DEF:0 "the Empire of Crimea"
+
+      # DEMOCRACY
+
+      CRI_democratic:0 "Crimea"
+      CRI_democratic_DEF:0 "the Republic of Crimea"
+
+      # MARKET LIBERALISM
+
+
+      # SOCIAL LIBERALISM
+
+
+      # SOCIAL DEMOCRACY
+
+
+      # ULTRANATIONALISM
+
+
+      # communo_nationalism
+
+
+      # AUTHORITARIANISM
+
+
+      # COMMUNISM
+
+      CRI_communism:0 "Crimea"
+      CRI_communism_DEF:0 "the Socialist Crimea"
+
+
+    # ADJECTIVES
+
+      CRI_fascism_ADJ:0 "Crimeans"
+      CRI_democratic_ADJ:0 "Crimeans"
+      CRI_communism_ADJ:0 "Crimeans"
+
+    # MISC
+
+      ALT:0 "Crimea"
+      CRI_DEF:0 "the Crimea"
+      CRI_ADJ:0 "Crimeans"

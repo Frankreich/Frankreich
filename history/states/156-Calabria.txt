@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = FAI
+		owner = ITA
 		victory_points = {
 			11837 15 
 		}
@@ -23,12 +23,6 @@ state={
 			}
 		}
 		add_core_of = ITA
-		add_core_of = FAI
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-			}
-		}
 	}
 
 	provinces={

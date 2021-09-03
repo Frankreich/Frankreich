@@ -9,8 +9,7 @@ state={
 	}
 
 	history={
-		owner = KAZ
-		add_core_of = KAZ
+		owner = KIR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -19,16 +18,7 @@ state={
 		victory_points = {
 			1591 3 
 		}
-		add_core_of = GTL
-		add_core_of = ALO
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-
-			}
-
-		}
-
+		add_core_of = KIR
 	}
 
 	provinces={

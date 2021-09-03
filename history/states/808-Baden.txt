@@ -6,7 +6,7 @@ state= {
 	
 	history=
 	{
-		owner = BAD
+		owner = GER
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

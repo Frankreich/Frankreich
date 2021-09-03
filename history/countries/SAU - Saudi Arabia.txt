@@ -19,18 +19,25 @@ set_convoys = 5
 
 if = {
 	limit = {
-		owns_state = 292
-		owns_state = 679
-		owns_state = 765
-		owns_state = 678
-		owns_state = 293
-		owns_state = 659
-		owns_state = 294
-		owns_state = 658
+		is_puppet_of = FRA
 	}
 
-	set_cosmetic_tag = SAU_UNIFIED
+	set_cosmetic_tag = FRA_SAU
 }
+#if = {
+#	limit = {
+#		owns_state = 292
+#		owns_state = 679
+#		owns_state = 765
+#		owns_state = 678
+#		owns_state = 293
+#		owns_state = 659
+#		owns_state = 294
+#		owns_state = 658
+#	}
+#
+#	set_cosmetic_tag = SAU_UNIFIED
+#}
 
 set_politics = {
 	ruling_party = neutrality

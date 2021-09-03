@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = KRR
+		owner = KIR
 		victory_points = {
 			3720 1 
 		}
@@ -29,8 +29,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = GTL
-		add_core_of = KRR
+		add_core_of = KIR
 	}
 
 	provinces={
