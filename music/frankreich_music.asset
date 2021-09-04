@@ -1,4 +1,5 @@
 music = {
-	name = smuglayanka_moldavanka
+	name = "smuglyanka_moldavanka"
 	file = "smuglyanka_moldavanka.ogg"
+	volume = 0.8
 }

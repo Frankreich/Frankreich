@@ -1,6 +1,6 @@
 music_station = "soviet_union_radio"
 music = {
-	song = "Smuglyanka Moldavanka"
+	song = "smuglyanka_moldavanka"
 	chance = {
 		factor = 0
 		modifier = {
