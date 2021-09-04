@@ -1,0 +1,14 @@
+music_station = "soviet_union_radio"
+music = {
+	song = "smuglyanka_moldavanka"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+		modifier = {
+			tag = SOV
+			factor = 100
+		}
+	}
+}
